@@ -1,0 +1,2710 @@
+{
+  "summary": {
+    "config": "bm25_uni_k3",
+    "method": "bm25_uni",
+    "context_k": 3,
+    "budget_chars": 4000,
+    "n": 26,
+    "hit1": "24/26",
+    "hit3": "25/26",
+    "hit5": "25/26",
+    "mrr10": 0.942,
+    "context_evidence": "25/26",
+    "avg_context_chars": 2497,
+    "median_ms": 2.8,
+    "errors": 0,
+    "embed_tokens": 0,
+    "llm_input_tokens": 0,
+    "llm_output_tokens": 0,
+    "cache_hits": 0,
+    "cost_usd": 0.0
+  },
+  "traces": [
+    {
+      "query_id": "q01",
+      "question": "Thương mại toàn cầu được dự báo tăng trưởng bao nhiêu trong năm 2023?",
+      "query": "Thương mại toàn cầu được dự báo tăng trưởng bao nhiêu trong năm 2023?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 1.9,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p20:c00",
+          "page": 20,
+          "section": "chuong_1",
+          "score": 18.417932,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c00",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 17.962565,
+          "hit": true
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c03",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 16.173985,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p20:c01",
+          "page": 20,
+          "section": "chuong_1",
+          "score": 15.386769,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c04",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 12.043455,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c00",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 11.997388,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p28:c01",
+          "page": 28,
+          "section": "chuong_1",
+          "score": 11.800526,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c01",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 11.681116,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p33:c02",
+          "page": 33,
+          "section": "chuong_1",
+          "score": 11.20614,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p28:c00",
+          "page": 28,
+          "section": "chuong_1",
+          "score": 10.738374,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p20:c00",
+        "wb-vn-taking-stock-2023-08-vi:p11:c00",
+        "wb-vn-taking-stock-2023-08-vi:p34:c03"
+      ],
+      "context_chars": 1866,
+      "context_hit": true
+    },
+    {
+      "query_id": "q02",
+      "question": "Lượng ngoại tệ dự trữ của Ngân hàng Nhà nước cuối quý 1/2023 đủ chi trả cho mấy tháng hàng nhập khẩu?",
+      "query": "Lượng ngoại tệ dự trữ của Ngân hàng Nhà nước cuối quý 1/2023 đủ chi trả cho mấy tháng hàng nhập khẩu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 3.7,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p26:c01",
+          "page": 26,
+          "section": "chuong_1",
+          "score": 32.276607,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c02",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 30.372389,
+          "hit": true
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c04",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 16.393005,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p29:c01",
+          "page": 29,
+          "section": "chuong_1",
+          "score": 15.986848,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p25:c00",
+          "page": 25,
+          "section": "chuong_1",
+          "score": 15.267792,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p29:c00",
+          "page": 29,
+          "section": "chuong_1",
+          "score": 15.223493,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p35:c03",
+          "page": 35,
+          "section": "chuong_1",
+          "score": 15.202411,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p26:c02",
+          "page": 26,
+          "section": "chuong_1",
+          "score": 15.13153,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p26:c00",
+          "page": 26,
+          "section": "chuong_1",
+          "score": 15.109372,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p27:c00",
+          "page": 27,
+          "section": "chuong_1",
+          "score": 14.006187,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p26:c01",
+        "wb-vn-taking-stock-2023-08-vi:p12:c02",
+        "wb-vn-taking-stock-2023-08-vi:p34:c04"
+      ],
+      "context_chars": 2681,
+      "context_hit": true
+    },
+    {
+      "query_id": "q03",
+      "question": "Đầu tư công năm 2023 có thể đạt bao nhiêu phần trăm GDP và với điều kiện gì?",
+      "query": "Đầu tư công năm 2023 có thể đạt bao nhiêu phần trăm GDP và với điều kiện gì?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 3.0,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c01",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 18.035495,
+          "hit": false
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p21:c01",
+          "page": 21,
+          "section": "chuong_1",
+          "score": 15.429808,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c03",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 15.141687,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p23:c00",
+          "page": 23,
+          "section": "chuong_1",
+          "score": 14.000365,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p33:c02",
+          "page": 33,
+          "section": "chuong_1",
+          "score": 13.679455,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c03",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 13.515319,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p32:c00",
+          "page": 32,
+          "section": "chuong_1",
+          "score": 13.214592,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p42:c00",
+          "page": 42,
+          "section": "chuong_2",
+          "score": 13.082824,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c00",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 12.660245,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p32:c02",
+          "page": 32,
+          "section": "chuong_1",
+          "score": 12.108581,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": null,
+      "hit1": false,
+      "hit3": false,
+      "hit5": false,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p13:c01",
+        "wb-vn-taking-stock-2023-08-vi:p21:c01",
+        "wb-vn-taking-stock-2023-08-vi:p11:c03"
+      ],
+      "context_chars": 2907,
+      "context_hit": false
+    },
+    {
+      "query_id": "q04",
+      "question": "Giai đoạn 2011–2019, Việt Nam cần bao nhiêu đồng vốn đầu tư mới để có thêm một đồng sản lượng?",
+      "query": "Giai đoạn 2011–2019, Việt Nam cần bao nhiêu đồng vốn đầu tư mới để có thêm một đồng sản lượng?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 5.2,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p42:c00",
+          "page": 42,
+          "section": "chuong_2",
+          "score": 27.964471,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c00",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 25.990825,
+          "hit": true
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p42:c03",
+          "page": 42,
+          "section": "chuong_2",
+          "score": 19.358213,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p15:c04",
+          "page": 15,
+          "section": "tong_quan",
+          "score": 18.499235,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p40:c00",
+          "page": 40,
+          "section": "chuong_2",
+          "score": 16.775823,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c04",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 16.709467,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c00",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 14.849193,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c06",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 14.356237,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c00",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 13.86138,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c02",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 13.749756,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p42:c00",
+        "wb-vn-taking-stock-2023-08-vi:p16:c00",
+        "wb-vn-taking-stock-2023-08-vi:p42:c03"
+      ],
+      "context_chars": 2788,
+      "context_hit": true
+    },
+    {
+      "query_id": "q05",
+      "question": "Để hợp lý hóa quan hệ tài khóa giữa các cấp chính quyền, cơ cấu ngân sách đầu tư công nên được dịch chuyển theo hướng nào?",
+      "query": "Để hợp lý hóa quan hệ tài khóa giữa các cấp chính quyền, cơ cấu ngân sách đầu tư công nên được dịch chuyển theo hướng nào?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 4.4,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p18:c00",
+          "page": 18,
+          "section": "tong_quan",
+          "score": 41.958961,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c03",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 33.468441,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c02",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 32.60925,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p53:c03",
+          "page": 53,
+          "section": "chuong_2",
+          "score": 26.761447,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p53:c04",
+          "page": 53,
+          "section": "chuong_2",
+          "score": 26.319373,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c03",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 21.30955,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c00",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 20.592994,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p42:c01",
+          "page": 42,
+          "section": "chuong_2",
+          "score": 20.562436,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p37:c01",
+          "page": 37,
+          "section": "chuong_1",
+          "score": 20.319568,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c01",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 19.975013,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p18:c00",
+        "wb-vn-taking-stock-2023-08-vi:p52:c03",
+        "wb-vn-taking-stock-2023-08-vi:p17:c02"
+      ],
+      "context_chars": 1889,
+      "context_hit": true
+    },
+    {
+      "query_id": "q06",
+      "question": "Tăng trưởng GDP theo giá so sánh của Việt Nam trong nửa đầu năm 2023 là bao nhiêu?",
+      "query": "Tăng trưởng GDP theo giá so sánh của Việt Nam trong nửa đầu năm 2023 là bao nhiêu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.2,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p20:c01",
+          "page": 20,
+          "section": "chuong_1",
+          "score": 23.084689,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c01",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 21.969332,
+          "hit": true
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p21:c01",
+          "page": 21,
+          "section": "chuong_1",
+          "score": 18.040046,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p22:c02",
+          "page": 22,
+          "section": "chuong_1",
+          "score": 15.836234,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c04",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 15.746209,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p20:c02",
+          "page": 20,
+          "section": "chuong_1",
+          "score": 15.471319,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p27:c00",
+          "page": 27,
+          "section": "chuong_1",
+          "score": 14.67707,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c03",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 14.040126,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p26:c00",
+          "page": 26,
+          "section": "chuong_1",
+          "score": 13.692869,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c01",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 13.592468,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p20:c01",
+        "wb-vn-taking-stock-2023-08-vi:p11:c01",
+        "wb-vn-taking-stock-2023-08-vi:p21:c01"
+      ],
+      "context_chars": 2750,
+      "context_hit": true
+    },
+    {
+      "query_id": "q07",
+      "question": "Các đợt mất điện tháng 5–6/2023 gây phí tổn kinh tế ước tính bao nhiêu?",
+      "query": "Các đợt mất điện tháng 5–6/2023 gây phí tổn kinh tế ước tính bao nhiêu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 1.7,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p23:c03",
+          "page": 23,
+          "section": "chuong_1",
+          "score": 27.306411,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p22:c00",
+          "page": 22,
+          "section": "chuong_1",
+          "score": 24.25004,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p24:c02",
+          "page": 24,
+          "section": "chuong_1",
+          "score": 14.699559,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p23:c01",
+          "page": 23,
+          "section": "chuong_1",
+          "score": 13.414748,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p21:c02",
+          "page": 21,
+          "section": "chuong_1",
+          "score": 13.38917,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c01",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 13.206398,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p23:c02",
+          "page": 23,
+          "section": "chuong_1",
+          "score": 12.989192,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c03",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 12.377524,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c00",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 12.179153,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c00",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 11.950142,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p23:c03",
+        "wb-vn-taking-stock-2023-08-vi:p22:c00",
+        "wb-vn-taking-stock-2023-08-vi:p24:c02"
+      ],
+      "context_chars": 1673,
+      "context_hit": true
+    },
+    {
+      "query_id": "q08",
+      "question": "Theo Thông tư 02/2023/TT-NHNN, ngân hàng được tái cơ cấu khoản vay cho bên vay trong trường hợp nào?",
+      "query": "Theo Thông tư 02/2023/TT-NHNN, ngân hàng được tái cơ cấu khoản vay cho bên vay trong trường hợp nào?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 3.2,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c05",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 42.569782,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c02",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 36.93865,
+          "hit": true
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c01",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 25.07282,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p29:c01",
+          "page": 29,
+          "section": "chuong_1",
+          "score": 18.22232,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c00",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 18.153383,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p36:c04",
+          "page": 36,
+          "section": "chuong_1",
+          "score": 17.527743,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c02",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 15.67308,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p37:c05",
+          "page": 37,
+          "section": "chuong_1",
+          "score": 15.630225,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p26:c01",
+          "page": 26,
+          "section": "chuong_1",
+          "score": 15.115273,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c03",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 14.55286,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p12:c05",
+        "wb-vn-taking-stock-2023-08-vi:p31:c02",
+        "wb-vn-taking-stock-2023-08-vi:p31:c01"
+      ],
+      "context_chars": 2310,
+      "context_hit": true
+    },
+    {
+      "query_id": "q09",
+      "question": "Mức độ bi quan của người tiêu dùng về nền kinh tế thay đổi thế nào giữa đầu năm và giữa năm 2023?",
+      "query": "Mức độ bi quan của người tiêu dùng về nền kinh tế thay đổi thế nào giữa đầu năm và giữa năm 2023?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.5,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p22:c01",
+          "page": 22,
+          "section": "chuong_1",
+          "score": 19.149322,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c04",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 16.645524,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p22:c03",
+          "page": 22,
+          "section": "chuong_1",
+          "score": 14.937299,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c05",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 14.368918,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c01",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 14.285533,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c03",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 13.771907,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c02",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 13.624511,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c05",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 13.619438,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c05",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 13.380564,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c01",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 12.795516,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p22:c01",
+        "wb-vn-taking-stock-2023-08-vi:p34:c04",
+        "wb-vn-taking-stock-2023-08-vi:p22:c03"
+      ],
+      "context_chars": 2699,
+      "context_hit": true
+    },
+    {
+      "query_id": "q10",
+      "question": "Vốn FDI đăng ký trong nửa đầu năm 2023 đạt bao nhiêu?",
+      "query": "Vốn FDI đăng ký trong nửa đầu năm 2023 đạt bao nhiêu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 4.5,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p28:c01",
+          "page": 28,
+          "section": "chuong_1",
+          "score": 27.627874,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c01",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 17.088392,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p29:c00",
+          "page": 29,
+          "section": "chuong_1",
+          "score": 16.138544,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p24:c00",
+          "page": 24,
+          "section": "chuong_1",
+          "score": 16.083443,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p26:c00",
+          "page": 26,
+          "section": "chuong_1",
+          "score": 12.020638,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p32:c00",
+          "page": 32,
+          "section": "chuong_1",
+          "score": 11.02112,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p36:c00",
+          "page": 36,
+          "section": "chuong_1",
+          "score": 10.533624,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p21:c00",
+          "page": 21,
+          "section": "chuong_1",
+          "score": 10.211683,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p23:c00",
+          "page": 23,
+          "section": "chuong_1",
+          "score": 9.95669,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c02",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 9.690366,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p28:c01",
+        "wb-vn-taking-stock-2023-08-vi:p12:c01",
+        "wb-vn-taking-stock-2023-08-vi:p29:c00"
+      ],
+      "context_chars": 2488,
+      "context_hit": true
+    },
+    {
+      "query_id": "q11",
+      "question": "Tỷ lệ nợ xấu của các tổ chức tín dụng tăng từ mức nào lên mức nào trong quý đầu năm 2023?",
+      "query": "Tỷ lệ nợ xấu của các tổ chức tín dụng tăng từ mức nào lên mức nào trong quý đầu năm 2023?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.2,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c01",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 25.653476,
+          "hit": false
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c03",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 25.553737,
+          "hit": true
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c02",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 19.744215,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p30:c00",
+          "page": 30,
+          "section": "chuong_1",
+          "score": 19.277201,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c00",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 18.809565,
+          "hit": true
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p37:c05",
+          "page": 37,
+          "section": "chuong_1",
+          "score": 17.385791,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p36:c04",
+          "page": 36,
+          "section": "chuong_1",
+          "score": 16.34617,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p24:c01",
+          "page": 24,
+          "section": "chuong_1",
+          "score": 15.288973,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p37:c00",
+          "page": 37,
+          "section": "chuong_1",
+          "score": 15.101706,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p37:c04",
+          "page": 37,
+          "section": "chuong_1",
+          "score": 14.950103,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 2,
+      "hit1": false,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p31:c01",
+        "wb-vn-taking-stock-2023-08-vi:p12:c03",
+        "wb-vn-taking-stock-2023-08-vi:p31:c02"
+      ],
+      "context_chars": 2765,
+      "context_hit": true
+    },
+    {
+      "query_id": "q12",
+      "question": "Hệ số an toàn vốn của ngân hàng năm 2022 đã vượt mức tối thiểu, vậy hạn chế còn lại là gì?",
+      "query": "Hệ số an toàn vốn của ngân hàng năm 2022 đã vượt mức tối thiểu, vậy hạn chế còn lại là gì?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 4.7,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c00",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 27.924998,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p15:c00",
+          "page": 15,
+          "section": "tong_quan",
+          "score": 17.134659,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p36:c04",
+          "page": 36,
+          "section": "chuong_1",
+          "score": 16.319821,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c03",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 15.220339,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p36:c05",
+          "page": 36,
+          "section": "chuong_1",
+          "score": 15.161686,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c03",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 14.322294,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p44:c00",
+          "page": 44,
+          "section": "chuong_2",
+          "score": 14.252413,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c01",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 13.311251,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c01",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 12.323674,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c00",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 12.212183,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p31:c00",
+        "wb-vn-taking-stock-2023-08-vi:p15:c00",
+        "wb-vn-taking-stock-2023-08-vi:p36:c04"
+      ],
+      "context_chars": 2451,
+      "context_hit": true
+    },
+    {
+      "query_id": "q13",
+      "question": "Có bao nhiêu doanh nghiệp mất khả năng trả nợ trái phiếu và tổng giá trị là bao nhiêu?",
+      "query": "Có bao nhiêu doanh nghiệp mất khả năng trả nợ trái phiếu và tổng giá trị là bao nhiêu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.9,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c00",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 31.214986,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c01",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 24.251972,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p33:c00",
+          "page": 33,
+          "section": "chuong_1",
+          "score": 15.642221,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p12:c05",
+          "page": 12,
+          "section": "tong_quan",
+          "score": 15.254028,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c02",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 14.054259,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c03",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 13.660606,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p38:c00",
+          "page": 38,
+          "section": "chuong_1",
+          "score": 11.805584,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p15:c01",
+          "page": 15,
+          "section": "tong_quan",
+          "score": 11.785185,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p36:c05",
+          "page": 36,
+          "section": "chuong_1",
+          "score": 11.370258,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p36:c04",
+          "page": 36,
+          "section": "chuong_1",
+          "score": 10.894439,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p31:c00",
+        "wb-vn-taking-stock-2023-08-vi:p31:c01",
+        "wb-vn-taking-stock-2023-08-vi:p33:c00"
+      ],
+      "context_chars": 2969,
+      "context_hit": true
+    },
+    {
+      "query_id": "q14",
+      "question": "Mức nợ công năm 2022 so với ngưỡng giới hạn do Quốc hội đặt ra như thế nào?",
+      "query": "Mức nợ công năm 2022 so với ngưỡng giới hạn do Quốc hội đặt ra như thế nào?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.6,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p41:c01",
+          "page": 41,
+          "section": "chuong_2",
+          "score": 20.170783,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p33:c00",
+          "page": 33,
+          "section": "chuong_1",
+          "score": 19.119528,
+          "hit": true
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c02",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 12.689449,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c00",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 12.112446,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p14:c03",
+          "page": 14,
+          "section": "tong_quan",
+          "score": 11.921097,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c02",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 11.864909,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c04",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 11.789964,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c02",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 11.780552,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p31:c00",
+          "page": 31,
+          "section": "chuong_1",
+          "score": 11.658724,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c02",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 11.629098,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p41:c01",
+        "wb-vn-taking-stock-2023-08-vi:p33:c00",
+        "wb-vn-taking-stock-2023-08-vi:p34:c02"
+      ],
+      "context_chars": 2453,
+      "context_hit": true
+    },
+    {
+      "query_id": "q15",
+      "question": "Dự báo tăng trưởng năm 2023 dựa trên giả định nào về xuất khẩu?",
+      "query": "Dự báo tăng trưởng năm 2023 dựa trên giả định nào về xuất khẩu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.0,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c00",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 24.468292,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p28:c00",
+          "page": 28,
+          "section": "chuong_1",
+          "score": 12.532153,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c01",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 12.099461,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p24:c02",
+          "page": 24,
+          "section": "chuong_1",
+          "score": 12.033356,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p20:c01",
+          "page": 20,
+          "section": "chuong_1",
+          "score": 12.030659,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p11:c01",
+          "page": 11,
+          "section": "tong_quan",
+          "score": 11.875446,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c03",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 11.580141,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c02",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 11.36058,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p21:c01",
+          "page": 21,
+          "section": "chuong_1",
+          "score": 11.095832,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p22:c01",
+          "page": 22,
+          "section": "chuong_1",
+          "score": 10.721611,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p34:c00",
+        "wb-vn-taking-stock-2023-08-vi:p28:c00",
+        "wb-vn-taking-stock-2023-08-vi:p13:c01"
+      ],
+      "context_chars": 2846,
+      "context_hit": true
+    },
+    {
+      "query_id": "q16",
+      "question": "Giai đoạn 2017–2022, chi đầu tư thực hiện được bình quân bao nhiêu phần trăm dự toán?",
+      "query": "Giai đoạn 2017–2022, chi đầu tư thực hiện được bình quân bao nhiêu phần trăm dự toán?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 1.7,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c00",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 25.937334,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c01",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 19.051731,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c02",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 18.147353,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c01",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 17.993064,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p40:c00",
+          "page": 40,
+          "section": "chuong_2",
+          "score": 16.455271,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c00",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 15.838008,
+          "hit": true
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c03",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 15.112026,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p15:c04",
+          "page": 15,
+          "section": "tong_quan",
+          "score": 14.563506,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p32:c01",
+          "page": 32,
+          "section": "chuong_1",
+          "score": 13.094107,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c06",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 12.049117,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p43:c00",
+        "wb-vn-taking-stock-2023-08-vi:p43:c01",
+        "wb-vn-taking-stock-2023-08-vi:p43:c02"
+      ],
+      "context_chars": 2558,
+      "context_hit": true
+    },
+    {
+      "query_id": "q17",
+      "question": "Việt Nam có bao nhiêu cảng biển và tỷ lệ hàng hóa đi qua ba cảng do Bộ Giao thông Vận tải đầu tư là bao nhiêu?",
+      "query": "Việt Nam có bao nhiêu cảng biển và tỷ lệ hàng hóa đi qua ba cảng do Bộ Giao thông Vận tải đầu tư là bao nhiêu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.4,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c00",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 35.027526,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c06",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 29.187385,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p41:c02",
+          "page": 41,
+          "section": "chuong_2",
+          "score": 24.409254,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c04",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 18.976337,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c02",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 17.063371,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p20:c01",
+          "page": 20,
+          "section": "chuong_1",
+          "score": 16.059835,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c03",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 15.767384,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c01",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 14.810901,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c03",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 14.547314,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p27:c00",
+          "page": 27,
+          "section": "chuong_1",
+          "score": 13.828376,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p45:c00",
+        "wb-vn-taking-stock-2023-08-vi:p45:c06",
+        "wb-vn-taking-stock-2023-08-vi:p41:c02"
+      ],
+      "context_chars": 2265,
+      "context_hit": true
+    },
+    {
+      "query_id": "q18",
+      "question": "Dự án nhóm B có bắt buộc lập báo cáo nghiên cứu tiền khả thi không?",
+      "query": "Dự án nhóm B có bắt buộc lập báo cáo nghiên cứu tiền khả thi không?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 3.7,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c02",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 33.561396,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c00",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 30.394737,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c03",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 28.95401,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c04",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 24.064171,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p53:c00",
+          "page": 53,
+          "section": "chuong_2",
+          "score": 22.579948,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c02",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 18.838435,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c04",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 18.436396,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c05",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 17.475938,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c04",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 12.013036,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p37:c06",
+          "page": 37,
+          "section": "chuong_1",
+          "score": 11.97676,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p47:c02",
+        "wb-vn-taking-stock-2023-08-vi:p48:c00",
+        "wb-vn-taking-stock-2023-08-vi:p17:c03"
+      ],
+      "context_chars": 2452,
+      "context_hit": true
+    },
+    {
+      "query_id": "q19",
+      "question": "Các tỉnh có được điều chuyển vốn đầu tư cho nhau khi cùng hưởng lợi từ một dự án liên tỉnh không?",
+      "query": "Các tỉnh có được điều chuyển vốn đầu tư cho nhau khi cùng hưởng lợi từ một dự án liên tỉnh không?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 5.8,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p49:c03",
+          "page": 49,
+          "section": "chuong_2",
+          "score": 22.025893,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p49:c02",
+          "page": 49,
+          "section": "chuong_2",
+          "score": 18.796183,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c01",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 17.59817,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c01",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 17.311194,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p49:c01",
+          "page": 49,
+          "section": "chuong_2",
+          "score": 16.909222,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c01",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 14.894449,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p18:c01",
+          "page": 18,
+          "section": "tong_quan",
+          "score": 14.794102,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c06",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 14.685241,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p45:c00",
+          "page": 45,
+          "section": "chuong_2",
+          "score": 14.633077,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c00",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 14.628182,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p49:c03",
+        "wb-vn-taking-stock-2023-08-vi:p49:c02",
+        "wb-vn-taking-stock-2023-08-vi:p48:c01"
+      ],
+      "context_chars": 2428,
+      "context_hit": true
+    },
+    {
+      "query_id": "q20",
+      "question": "Tỷ lệ đóng góp tài chính giữa trung ương và địa phương cho gói hỗ trợ vùng Đồng bằng sông Cửu Long là bao nhiêu?",
+      "query": "Tỷ lệ đóng góp tài chính giữa trung ương và địa phương cho gói hỗ trợ vùng Đồng bằng sông Cửu Long là bao nhiêu?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 2.2,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c04",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 34.100303,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c02",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 28.351336,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c00",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 26.094704,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p49:c04",
+          "page": 49,
+          "section": "chuong_2",
+          "score": 24.561015,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c01",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 23.795063,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c01",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 21.863044,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p18:c00",
+          "page": 18,
+          "section": "tong_quan",
+          "score": 20.008102,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c03",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 19.432565,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p29:c02",
+          "page": 29,
+          "section": "chuong_1",
+          "score": 16.663468,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c03",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 16.363776,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p50:c04",
+        "wb-vn-taking-stock-2023-08-vi:p50:c02",
+        "wb-vn-taking-stock-2023-08-vi:p51:c00"
+      ],
+      "context_chars": 2492,
+      "context_hit": true
+    },
+    {
+      "query_id": "q21",
+      "question": "Năm 2022, hệ thống thông tin quản lý đầu tư SBIMIS mới bao quát được bao nhiêu phần trăm dự án ở các khâu theo dõi, kiểm tra và đánh giá?",
+      "query": "Năm 2022, hệ thống thông tin quản lý đầu tư SBIMIS mới bao quát được bao nhiêu phần trăm dự án ở các khâu theo dõi, kiểm tra và đánh giá?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 8.5,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c03",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 53.118735,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c04",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 26.209309,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p53:c00",
+          "page": 53,
+          "section": "chuong_2",
+          "score": 24.765762,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c01",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 24.595847,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c02",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 22.987323,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c04",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 21.037379,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c02",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 20.900411,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c00",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 18.92607,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p37:c04",
+          "page": 37,
+          "section": "chuong_1",
+          "score": 18.40477,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p48:c01",
+          "page": 48,
+          "section": "chuong_2",
+          "score": 17.874624,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p48:c03",
+        "wb-vn-taking-stock-2023-08-vi:p48:c04",
+        "wb-vn-taking-stock-2023-08-vi:p53:c00"
+      ],
+      "context_chars": 2675,
+      "context_hit": true
+    },
+    {
+      "query_id": "q22",
+      "question": "Chi phí xử lý rủi ro ngập lụt và hạn hán ở hạ lưu Đà Nẵng so với chi phí xử lý ở thượng nguồn Quảng Nam chênh nhau thế nào?",
+      "query": "Chi phí xử lý rủi ro ngập lụt và hạn hán ở hạ lưu Đà Nẵng so với chi phí xử lý ở thượng nguồn Quảng Nam chênh nhau thế nào?",
+      "filter": null,
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 4.5,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c00",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 63.232804,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c03",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 35.845451,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c00",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 21.676808,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c01",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 20.049027,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c02",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 17.533811,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c02",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 15.547989,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c01",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 15.138773,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c00",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 14.707017,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c01",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 13.863576,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p42:c04",
+          "page": 42,
+          "section": "chuong_2",
+          "score": 13.298261,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p52:c00",
+        "wb-vn-taking-stock-2023-08-vi:p51:c03",
+        "wb-vn-taking-stock-2023-08-vi:p46:c00"
+      ],
+      "context_chars": 2593,
+      "context_hit": true
+    },
+    {
+      "query_id": "q23",
+      "question": "Tổng nhu cầu tài chính phát sinh thêm để ứng phó biến đổi khí hậu và chuyển đổi xanh đến năm 2040 là bao nhiêu?",
+      "query": "Tổng nhu cầu tài chính phát sinh thêm để ứng phó biến đổi khí hậu và chuyển đổi xanh đến năm 2040 là bao nhiêu?",
+      "filter": {
+        "section": "chuong_2"
+      },
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 0.9,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c02",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 35.539307,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c01",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 22.736222,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p50:c03",
+          "page": 50,
+          "section": "chuong_2",
+          "score": 16.703559,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c05",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 16.495609,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p46:c00",
+          "page": 46,
+          "section": "chuong_2",
+          "score": 16.444301,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p53:c02",
+          "page": 53,
+          "section": "chuong_2",
+          "score": 15.271141,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c02",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 13.120429,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p49:c02",
+          "page": 49,
+          "section": "chuong_2",
+          "score": 12.725768,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p53:c04",
+          "page": 53,
+          "section": "chuong_2",
+          "score": 12.475225,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p42:c04",
+          "page": 42,
+          "section": "chuong_2",
+          "score": 11.337217,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p46:c02",
+        "wb-vn-taking-stock-2023-08-vi:p51:c01",
+        "wb-vn-taking-stock-2023-08-vi:p50:c03"
+      ],
+      "context_chars": 2336,
+      "context_hit": true
+    },
+    {
+      "query_id": "q24",
+      "question": "Giải pháp thực tiễn nào được khuyến nghị để đẩy nhanh tiến độ các dự án đầu tư công lớn?",
+      "query": "Giải pháp thực tiễn nào được khuyến nghị để đẩy nhanh tiến độ các dự án đầu tư công lớn?",
+      "filter": {
+        "section": "tong_quan"
+      },
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 1.8,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c03",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 26.829765,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p14:c03",
+          "page": 14,
+          "section": "tong_quan",
+          "score": 15.731884,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c01",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 15.711737,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p14:c02",
+          "page": 14,
+          "section": "tong_quan",
+          "score": 14.99555,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p18:c00",
+          "page": 18,
+          "section": "tong_quan",
+          "score": 14.023206,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p14:c04",
+          "page": 14,
+          "section": "tong_quan",
+          "score": 13.049336,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c02",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 12.135055,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p16:c05",
+          "page": 16,
+          "section": "tong_quan",
+          "score": 10.778418,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p13:c00",
+          "page": 13,
+          "section": "tong_quan",
+          "score": 10.660853,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p17:c04",
+          "page": 17,
+          "section": "tong_quan",
+          "score": 9.97978,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p17:c03",
+        "wb-vn-taking-stock-2023-08-vi:p14:c03",
+        "wb-vn-taking-stock-2023-08-vi:p16:c01"
+      ],
+      "context_chars": 2207,
+      "context_hit": true
+    },
+    {
+      "query_id": "q25",
+      "question": "Tiêu dùng tư nhân năm 2023 được dự báo tăng bao nhiêu và đóng góp bao nhiêu cho tăng trưởng GDP?",
+      "query": "Tiêu dùng tư nhân năm 2023 được dự báo tăng bao nhiêu và đóng góp bao nhiêu cho tăng trưởng GDP?",
+      "filter": {
+        "section": "chuong_1"
+      },
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 4.1,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p33:c02",
+          "page": 33,
+          "section": "chuong_1",
+          "score": 23.431595,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p34:c00",
+          "page": 34,
+          "section": "chuong_1",
+          "score": 19.959323,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p21:c01",
+          "page": 21,
+          "section": "chuong_1",
+          "score": 16.961383,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p22:c01",
+          "page": 22,
+          "section": "chuong_1",
+          "score": 15.548159,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p20:c01",
+          "page": 20,
+          "section": "chuong_1",
+          "score": 14.434558,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p22:c02",
+          "page": 22,
+          "section": "chuong_1",
+          "score": 13.710483,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p23:c00",
+          "page": 23,
+          "section": "chuong_1",
+          "score": 13.578716,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p21:c00",
+          "page": 21,
+          "section": "chuong_1",
+          "score": 13.300411,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p24:c00",
+          "page": 24,
+          "section": "chuong_1",
+          "score": 11.961429,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p38:c00",
+          "page": 38,
+          "section": "chuong_1",
+          "score": 11.460333,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p33:c02",
+        "wb-vn-taking-stock-2023-08-vi:p34:c00",
+        "wb-vn-taking-stock-2023-08-vi:p21:c01"
+      ],
+      "context_chars": 2768,
+      "context_hit": true
+    },
+    {
+      "query_id": "q26",
+      "question": "Vì sao việc lập kế hoạch và thẩm định dự án được đặt lên hàng đầu trong các khuyến nghị về quản lý đầu tư công?",
+      "query": "Vì sao việc lập kế hoạch và thẩm định dự án được đặt lên hàng đầu trong các khuyến nghị về quản lý đầu tư công?",
+      "filter": {
+        "section": "chuong_2"
+      },
+      "config": "bm25_uni_k3",
+      "method": "bm25_uni",
+      "error": null,
+      "elapsed_ms": 1.1,
+      "results": [
+        {
+          "rank": 1,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c04",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 24.936837,
+          "hit": true
+        },
+        {
+          "rank": 2,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c01",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 24.45414,
+          "hit": false
+        },
+        {
+          "rank": 3,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c05",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 22.611802,
+          "hit": false
+        },
+        {
+          "rank": 4,
+          "id": "wb-vn-taking-stock-2023-08-vi:p49:c01",
+          "page": 49,
+          "section": "chuong_2",
+          "score": 21.34688,
+          "hit": false
+        },
+        {
+          "rank": 5,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c03",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 18.170417,
+          "hit": false
+        },
+        {
+          "rank": 6,
+          "id": "wb-vn-taking-stock-2023-08-vi:p47:c02",
+          "page": 47,
+          "section": "chuong_2",
+          "score": 16.857482,
+          "hit": false
+        },
+        {
+          "rank": 7,
+          "id": "wb-vn-taking-stock-2023-08-vi:p51:c04",
+          "page": 51,
+          "section": "chuong_2",
+          "score": 15.961326,
+          "hit": false
+        },
+        {
+          "rank": 8,
+          "id": "wb-vn-taking-stock-2023-08-vi:p42:c01",
+          "page": 42,
+          "section": "chuong_2",
+          "score": 15.662931,
+          "hit": false
+        },
+        {
+          "rank": 9,
+          "id": "wb-vn-taking-stock-2023-08-vi:p52:c01",
+          "page": 52,
+          "section": "chuong_2",
+          "score": 15.395512,
+          "hit": false
+        },
+        {
+          "rank": 10,
+          "id": "wb-vn-taking-stock-2023-08-vi:p43:c00",
+          "page": 43,
+          "section": "chuong_2",
+          "score": 15.09547,
+          "hit": false
+        }
+      ],
+      "first_hit_rank": 1,
+      "hit1": true,
+      "hit3": true,
+      "hit5": true,
+      "context_ids": [
+        "wb-vn-taking-stock-2023-08-vi:p52:c04",
+        "wb-vn-taking-stock-2023-08-vi:p47:c01",
+        "wb-vn-taking-stock-2023-08-vi:p51:c05"
+      ],
+      "context_chars": 2612,
+      "context_hit": true
+    }
+  ]
+}
