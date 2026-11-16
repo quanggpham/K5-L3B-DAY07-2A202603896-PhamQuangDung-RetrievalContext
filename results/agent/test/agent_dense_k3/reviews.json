@@ -1,0 +1,96 @@
+[
+  {
+    "query_id": "t01",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 4,5%, bốn đợt cắt giảm, 150-200 điểm cơ bản; không nêu chiết khấu 3% (thông tin phụ).",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t02",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 5,6 triệu, tăng từ 0,6 triệu.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t03",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 7,8% so với chỉ tiêu 14,0%.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t04",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 32-35% GDP, kèm đầu tư công 7,3% GDP.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t05",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đúng 71,2% DN cắt giảm (ít nhất) 5% lao động; p12:c00 nêu 'ít nhất 5%'.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t06",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 5,1 tỷ US$, bốn NHTM quốc doanh.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t07",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng Hoa Kỳ -21,3%, EU -9,6%, năm tháng đầu năm.",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "t08",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [
+      true
+    ],
+    "note": "Đúng 1,5 triệu dân/tỉnh so với 3 triệu (OECD); thiếu số dân đô thị (phụ).",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "u04",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [],
+    "note": "Từ chối, không nêu con số vốn.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u05",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [],
+    "note": "Từ chối, phân biệt lãi suất chính sách với lãi suất cho vay bình quân.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u06",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "citation_support": [],
+    "note": "Từ chối; số liệu liên quan nêu thêm (CPI tháng 1 và 6, dự báo 3,5%, giảm thuế GTGT) đều có trong context.",
+    "abstention_correct": true
+  }
+]

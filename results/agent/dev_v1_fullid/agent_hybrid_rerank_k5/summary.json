@@ -1,0 +1,25 @@
+{
+  "config": "agent_hybrid_rerank_k5",
+  "split": "dev",
+  "model": "gpt-4.1-mini",
+  "method": "hybrid_rerank",
+  "top_k": 5,
+  "max_searches": 3,
+  "budget": 9000,
+  "cases": 29,
+  "errors": 0,
+  "tool_use": "29/29",
+  "searches_distribution": {
+    "1": 27,
+    "3": 2
+  },
+  "mean_searches": 1.14,
+  "context_evidence": "26/26",
+  "answered_on_answerable": "17/26",
+  "abstained_on_unanswerable": "2/3",
+  "avg_context_chars": 4212,
+  "median_latency_s": 5.7,
+  "llm_input_tokens": 246848,
+  "llm_output_tokens": 22195,
+  "cost_usd": 0.13426
+}

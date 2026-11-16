@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-16",
+  "chosen": "agent_hybrid_rerank_k3",
+  "baseline": "agent_dense_k3",
+  "run_on_test": ["agent_dense_k3", "agent_hybrid_rerank_k3"],
+  "retrieval_on_test": ["dense_k3", "hybrid_rerank_k3"],
+  "rule": [
+    "1. max dev agent Context Evidence Rate (tie if within 1 question)",
+    "2. max dev correct cases = answers graded 2 + correct abstentions",
+    "3. lower cost and median latency"
+  ],
+  "dev": {
+    "agent_dense_k3": {"context_evidence": "23/26", "grade2": "23/26", "abstention": "2/3", "correct_cases": "25/29", "cost_usd": 0.04351, "median_latency_s": 4.19},
+    "agent_bm25_k3": {"context_evidence": "24/26", "grade2": "24/26", "abstention": "3/3", "correct_cases": "27/29", "cost_usd": 0.04402, "median_latency_s": 4.19},
+    "agent_hybrid_rerank_k3": {"context_evidence": "26/26", "grade2": "25/26", "abstention": "3/3", "correct_cases": "28/29", "cost_usd": 0.1236, "median_latency_s": 4.86},
+    "agent_hybrid_rerank_k5": {"context_evidence": "26/26", "grade2": "26/26", "abstention": "1/3", "correct_cases": "27/29", "cost_usd": 0.12762, "median_latency_s": 4.34}
+  },
+  "decision": "hybrid_rerank_k3 and _k5 tie on rule 1; _k3 wins rule 2 (28/29 vs 27/29) because _k5 invented answers for u01 and u03. Agent code frozen at this point (short_ids, marker normalisation, abstain rule)."
+}

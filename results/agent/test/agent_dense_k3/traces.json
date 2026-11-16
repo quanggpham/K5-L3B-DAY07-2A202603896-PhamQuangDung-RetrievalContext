@@ -1,0 +1,1298 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Đến cuối quý 2 năm 2023, lãi suất tái cấp vốn của Ngân hàng Nhà nước được điều chỉnh về mức bao nhiêu?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Đến cuối quý 2 năm 2023, lãi suất tái cấp vốn của Ngân hàng Nhà nước được điều chỉnh về mức 4,5%, giảm 150-200 điểm cơ bản thông qua bốn đợt cắt giảm lãi suất chính sách từ tháng 3 đến tháng 6/2023 [wb-vn-taking-stock-2023-08-vi:p29:c01].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "lãi suất tái cấp vốn cuối quý 2 năm 2023",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 812.8,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p29:c01",
+            "page": 29,
+            "score": 0.578062
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p24:c01",
+            "page": 24,
+            "score": 0.560741
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p13:c02",
+            "page": 13,
+            "score": 0.559684
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p29:c01",
+          "wb-vn-taking-stock-2023-08-vi:p24:c01",
+          "wb-vn-taking-stock-2023-08-vi:p13:c02"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Đến cuối quý 2 năm 2023, lãi suất tái cấp vốn của Ngân hàng Nhà nước được điều chỉnh về mức 4,5%, giảm 150-200 điểm cơ bản thông qua bốn đợt cắt giảm lãi suất chính sách từ tháng 3 đến tháng 6/2023.",
+        "citations": [
+          "S1"
+        ],
+        "bad": [
+          "S1"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Đến cuối quý 2 năm 2023, lãi suất tái cấp vốn của Ngân hàng Nhà nước được điều chỉnh về mức 4,5%, giảm 150-200 điểm cơ bản thông qua bốn đợt cắt giảm lãi suất chính sách từ tháng 3 đến tháng 6/2023 [S1].",
+        "raw_citations": [
+          "S1"
+        ]
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c01",
+      "wb-vn-taking-stock-2023-08-vi:p24:c01",
+      "wb-vn-taking-stock-2023-08-vi:p13:c02"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p29:c01": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p24:c01": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p13:c02": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p29:c01 | trang 29 | chuong_1]\nTrong bối cảnh lạm phát giảm và tăng trưởng yếu đi, NHNN nới lỏng chính sách tiền tệ từ giữa tháng 3/2023. Đến cuối quý 2 năm 2023, lãi suất chiết khấu và lãi suất tái cấp vốn của NHNN được điều chỉnh lần lượt ở mức 3 và 4,5%, giảm 150-200 điểm cơ bản thông qua bốn đợt cắt giảm lãi suất chính sách từ tháng 3 đến tháng 6/2023 (Hình 1.20). Trần lãi suất tiền gửi kỳ hạn dưới 6 tháng và lãi suất cho vay các lĩnh vực ưu tiên cũng được điều chỉnh giảm với quy mô tương tự nhằm khuyến khích các ngân hàng thương mại cung cấp vốn vay mới, rẻ hơn, cho khách hàng cá nhân và doanh nghiệp. Bên cạnh đó là nỗ lực đẩy nhanh triển khai chương trình hỗ trợ lãi suất, cũng như việc ra mắt chương trình tín dụng nhà ở xã hội để hỗ trợ kinh tế.\n\n[wb-vn-taking-stock-2023-08-vi:p24:c01 | trang 24 | chuong_1]\nTình hình thị trường lao động cũng giảm sôi động trong nửa đầu năm 2023, phản ánh các hoạt động kinh tế đang chững lại. Mặc dù tỷ lệ thất nghiệp và thiếu việc làm không thay đổi trong nửa đầu năm 2023 so với cùng kỳ năm trước, nhưng tăng trưởng việc làm giảm từ 2,2% so cùng kỳ trong quý đầu năm 2023 xuống còn 1,4% so cùng kỳ trong quý 2 (Hình 1.10), thấp hơn nhiều so với mức trung bình 4% trong giai đoạn trước đại dịch, phản ánh hoạt động kinh tế đang hạ nhiệt. Sau khi có cải thiện trong năm 2022, tỷ lệ tham gia lực lượng lao động đi ngang ở mức 68,9 trong nửa đầu năm 2023, vẫn thấp hơn so với mức bình quân của năm 2019 (71,1%). Do tình trạng thị trường lao động chưa khởi sắc, thu nhập bình quân vẫn đi ngang trong nửa đầu năm 2023 (Hình 1.11).\n\n[wb-vn-taking-stock-2023-08-vi:p13:c02 | trang 13 | tong_quan]\nDo thanh khoản được nới lỏng và NHNN tái ban hành hướng dẫn về tái cơ cấu thời hạn trả nợ, những hạn chế về nguồn tài chính dành cho các lĩnh vực bất động sản/xây dựng dự kiến sẽ được nới ra, qua đó hỗ trợ cho đầu tư tư nhân từng bước phục hồi từ năm 2024 trở đi. Chỉ số CPI dự kiến tăng nhẹ từ mức bình quân 3,1% trong năm 2022 lên bình quân 3,5% trong năm 2023. Tác động giảm phát khi tăng trưởng chững lại và chính sách giảm thuế suất thuế GTGT từ 10% xuống 8% được triển khai trong nửa cuối năm 2023 được cho là quá đủ đề bù lại cho đợt tăng lương công chức 20,8%. Lạm phát CPI sẽ được bình ổn ở mức 3,0% trong năm 2024 và 2025 trên cơ sở kỳ vọng giá năng lượng và thương phẩm sẽ ổn định trong năm 2024.",
+    "context_chars": 2278,
+    "elapsed_s": 6.31,
+    "embed_tokens": 24,
+    "llm_input_tokens": 3070,
+    "llm_output_tokens": 220,
+    "cache_hits": 0,
+    "cost_usd": 0.00158
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Số lượng du khách nước ngoài đến Việt Nam trong sáu tháng đầu năm 2023 là bao nhiêu?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Số lượng du khách nước ngoài đến Việt Nam trong sáu tháng đầu năm 2023 là 5,6 triệu người, tăng mạnh so với 0,6 triệu người cùng kỳ năm 2022 [wb-vn-taking-stock-2023-08-vi:p21:c03].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p21:c03"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "du khách nước ngoài sáu tháng đầu năm 2023",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 823.3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p21:c03",
+            "page": 21,
+            "score": 0.620636
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p34:c03",
+            "page": 34,
+            "score": 0.541818
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p22:c03",
+            "page": 22,
+            "score": 0.491568
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p21:c03",
+          "wb-vn-taking-stock-2023-08-vi:p34:c03",
+          "wb-vn-taking-stock-2023-08-vi:p22:c03"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Số lượng du khách nước ngoài đến Việt Nam trong sáu tháng đầu năm 2023 là 5,6 triệu người, tăng mạnh so với 0,6 triệu người cùng kỳ năm 2022.",
+        "citations": [
+          "S1"
+        ],
+        "bad": [
+          "S1"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Số lượng du khách nước ngoài đến Việt Nam trong sáu tháng đầu năm 2023 là 5,6 triệu người, tăng mạnh so với 0,6 triệu người cùng kỳ năm 2022 [S1].",
+        "raw_citations": [
+          "S1"
+        ]
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p21:c03",
+      "wb-vn-taking-stock-2023-08-vi:p34:c03",
+      "wb-vn-taking-stock-2023-08-vi:p22:c03"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p21:c03": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p34:c03": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p22:c03": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p21:c03 | trang 21 | chuong_1]\nTheo TCTK, các dịch vụ du lịch và lữ hành tăng trưởng 65,9% so cùng kỳ trong nửa đầu năm 2023, còn các dịch vụ lưu trú, ăn uống tăng 18,7% so cùng kỳ trong năm trước. Số lượng du khách nước ngoài tăng từ 0,6 triệu trong sáu tháng đầu năm 2022 lên 5,6 triệu trong sáu tháng đầu năm 2023. Du khách nội địa cũng tăng nhẹ từ mức 60.8 triệu lượt người trong nửa đầu năm 2022 lên mức 64 triệu lượt người cùng kỳ năm 2023. Phản ánh suy giảm về về sản xuất, nhập khẩu cũng suy giảm 17.9% so cùng kỳ, trong nửa đầu năm 2023. Haver Analytics và tính toán của cán bộ Ngân hàng Thế giới.\n\n[wb-vn-taking-stock-2023-08-vi:p34:c03 | trang 34 | chuong_1]\nTài khoản vãng lai dự kiến sẽ có thặng dư nhỏ trong năm 2023 nhờ thặng dư cán cân thương mại, lượng du khách quốc tế dự kiến tiếp tục tăng và nguồn kiều hối vẫn duy trì. Nhu cầu bên ngoài dự kiến sẽ từng bước phục hồi từ quý 4 năm 2023 và lấy được đà tăng vào cuối năm 2024, giúp thương mại hàng hóa gia tăng và góp phần cải thiện cán cân thương mại. Bên cạnh đó, số lượt du khách quốc tế được dự báo tiếp tục tăng. Nguồn kiều hối dự kiến đạt 14 tỷ US$ trong năm 2023 và 14,4 tỷ US$ trong năm 2024.\n\n[wb-vn-taking-stock-2023-08-vi:p22:c03 | trang 22 | chuong_1]\nDoanh số bán hàng, đóng góp khoảng 70% cho tổng doanh số bán lẻ, giảm từ 9,7% trong tháng 01/2023 xuống còn 6% so cùng kỳ trong tháng 02, thấp hơn nhiều so với tốc độ tăng trước đại dịch (11,9%, so cùng kỳ) do hiệu ứng lan truyền của cú sốc cầu bên ngoài và do niềm tin của người tiêu dùng suy giảm. Doanh số dịch vụ giảm đáng kể chủ yếu do hiệu ứng xuất phát điểm (doanh số quay về mức bình thường sau đại dịch) trong lĩnh vực dịch vụ du lịch, nhà hàng khách sạn (từ 36% so cùng kỳ trong tháng 01 xuống còn 6,5% trong tháng 06). Infocus, Khảo sát người tiêu dùng tháng 06/2023. Dữ liệu của TCTK, tính toán của cán bộ Ngân hàng Thế giới.",
+    "context_chars": 1797,
+    "elapsed_s": 5.4,
+    "embed_tokens": 22,
+    "llm_input_tokens": 2728,
+    "llm_output_tokens": 167,
+    "cache_hits": 0,
+    "cost_usd": 0.001359
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Tăng trưởng tín dụng tháng 6/2023 so với chỉ tiêu cả năm của Ngân hàng Nhà nước như thế nào?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Tăng trưởng tín dụng vào tháng 6/2023 giảm xuống còn 7,8% so cùng kỳ, thấp hơn nhiều so với chỉ tiêu tăng trưởng tín dụng của Ngân hàng Nhà nước Việt Nam (NHNN) đặt ra là 14,0% cho cả năm 2023 [wb-vn-taking-stock-2023-08-vi:p30:c00].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p30:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "tăng trưởng tín dụng tháng 6/2023 chỉ tiêu cả năm Ngân hàng Nhà nước",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 671.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p12:c02",
+            "page": 12,
+            "score": 0.617645
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p30:c00",
+            "page": 30,
+            "score": 0.614118
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p33:c02",
+            "page": 33,
+            "score": 0.609015
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p12:c02",
+          "wb-vn-taking-stock-2023-08-vi:p30:c00",
+          "wb-vn-taking-stock-2023-08-vi:p33:c02"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Tăng trưởng tín dụng vào tháng 6/2023 giảm xuống còn 7,8% so cùng kỳ, thấp hơn nhiều so với chỉ tiêu tăng trưởng tín dụng của Ngân hàng Nhà nước Việt Nam (NHNN) đặt ra là 14,0% cho cả năm 2023.",
+        "citations": [
+          "S2"
+        ],
+        "bad": [
+          "S2"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Tăng trưởng tín dụng vào tháng 6/2023 giảm xuống còn 7,8% so cùng kỳ, thấp hơn nhiều so với chỉ tiêu tăng trưởng tín dụng của Ngân hàng Nhà nước Việt Nam (NHNN) đặt ra là 14,0% cho cả năm 2023 [S2].",
+        "raw_citations": [
+          "S2"
+        ]
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p12:c02",
+      "wb-vn-taking-stock-2023-08-vi:p30:c00",
+      "wb-vn-taking-stock-2023-08-vi:p33:c02"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p12:c02": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p30:c00": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p33:c02": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p12:c02 | trang 12 | tong_quan]\n(ở mức 10 tỷ US$) trong nửa đầu năm 2023. Chính vì vậy, cán cân thanh toán được cải thiện, Ngân hàng Nhà nước Việt Nam (NHNN) tích lũy được thêm 1,6 tỷ US$ dự trữ ngoại hối vào cuối quý 1 năm 2023, nâng tổng dự trữ lên 88,7 tỷ US$, tương đương 3,3 tháng nhập khẩu. Lạm phát toàn phần giảm nhanh do giá nhiên liệu giảm trên thị trường toàn cầu và trong nước, đồng thời tiêu dùng trong nước cũng chững lại, trong khi lạm phát cơ bản hạ nhiệt nhưng chậm hơn. Chỉ số CPI giảm từ 4,9% (so cùng kỳ) trong tháng 1/2023 xuống còn 2% (so cùng kỳ) trong tháng 6/2023. Đồng thời, lạm phát cơ bản (không tính giá lương thực thực phẩm, nhiên liệu và các mặt hàng và dịch vụ được Nhà nước quản lý giá) giảm từ 5,2% (so cùng kỳ) trong tháng 1 xuống còn 4,3% (so cùng kỳ) trong tháng 6, vì hiệu ứng vòng hai của cú sốc thương phẩm năm 2022 vẫn kéo dài, bao gồm thông qua giá vật liệu xây dựng và qua đó giá nhà ở tăng cao.\n\n[wb-vn-taking-stock-2023-08-vi:p30:c00 | trang 30 | chuong_1]\nHình 1.18. Đóng góp cho lạm phát CPI Điểm % (so cùng kỳ, không điều chỉnh theo mùa vụ) Hình 1.19. Chỉ số giá của một số mặt hàng nhập khẩu Tháng 06/2019 = 100 (không điều chỉnh theo mùa vụ) Hình 1.20. Lãi suất Tỷ lệ % Khu vực ngân hàng tiếp tục phải đối mặt với thách thức trong nửa đầu năm 2023. Tăng trưởng tín dụng vào tháng 6/2023 giảm xuống còn 7,8% so cùng kỳ (Hình 1.21), thấp hơn nhiều so với chỉ tiêu tăng trưởng tín dụng của NHNN ở mức 14,0% cho cả năm. Xu hướng trên phản ánh nhu cầu tín dụng và hoạt động đầu tư đang yếu đi do hoạt động kinh tế bị suy yếu. Mặc dù tăng trưởng tín dụng giảm, nhưng tỷ lệ gộp dư nợ cho vay trên tiền gửi vẫn ở mức trên 100%, đồng thời bất cân đối về kỳ hạn trên bảng cân đối Tính toán bằng cách lấy tổng dư nợ cho vay của ngân hàng chia cho tổng tiền gửi của khách hàng. Tính toán này khác với tính toán chính thức về hệ số dư nợ cho vay trên tiền gửi theo quy định của NHNN.\n\n[wb-vn-taking-stock-2023-08-vi:p33:c02 | trang 33 | chuong_1]\nNhững trở ngại bên ngoài dự kiến sẽ ảnh hưởng đến tăng trưởng kinh tế trong ngắn hạn Tăng trưởng kinh tế Việt Nam dự kiến đạt 4,7% trong năm 2023, sau đó được dự báo phục hồi dần về 5,5% trong năm 2024 và 6,0% trong năm 2025. Nhu cầu trong nước chững lại nhưng dự kiến vẫn là động lực tăng trưởng chính trong năm 2023. Tiêu dùng tư nhân vẫn được kỳ vọng duy trì, với tốc độ tăng 6,0% (so cùng kỳ) - tuy nhiên có thấp hơn mức tăng trưởng trước đại dịch là 7% (so cùng kỳ) năm 2019 - đóng góp 3,4 điểm phần trăm cho tăng trưởng GDP. Tổng đầu tư đóng góp 1,8 điểm phần Nguồn: https://tradingeconomics.com Bộ Tài chính, tháng 06/2023.",
+    "context_chars": 2542,
+    "elapsed_s": 5.48,
+    "embed_tokens": 35,
+    "llm_input_tokens": 3249,
+    "llm_output_tokens": 211,
+    "cache_hits": 0,
+    "cost_usd": 0.001638
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Để đạt mục tiêu phát triển giai đoạn 2021-2030, tổng vốn đầu tư của toàn xã hội cần ở mức bao nhiêu so với GDP?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Để đạt mục tiêu phát triển giai đoạn 2021-2030, tổng vốn đầu tư của toàn xã hội cần đạt bình quân từ 32% đến 35% GDP, trong đó đầu tư công cần ở mức bình quân 7,3% GDP mỗi năm để hỗ trợ xây dựng hạ tầng. Đây là quan điểm của Chính phủ Việt Nam phù hợp với kinh nghiệm quốc tế về các quốc gia tăng trưởng cao có đầu tư công cao từ 7% GDP trở lên [wb-vn-taking-stock-2023-08-vi:p40:c00].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p40:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "tổng vốn đầu tư toàn xã hội mục tiêu 2021-2030",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 1046.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p40:c02",
+            "page": 40,
+            "score": 0.611859
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p40:c03",
+            "page": 40,
+            "score": 0.558349
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p36:c00",
+            "page": 36,
+            "score": 0.538109
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p40:c02",
+          "wb-vn-taking-stock-2023-08-vi:p40:c03",
+          "wb-vn-taking-stock-2023-08-vi:p36:c00"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "tổng vốn đầu tư toàn xã hội so với GDP 2021-2030",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 467.9,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p40:c01",
+            "page": 40,
+            "score": 0.582929
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p13:c03",
+            "page": 13,
+            "score": 0.578438
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p40:c02",
+            "page": 40,
+            "score": 0.575693
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p40:c01",
+          "wb-vn-taking-stock-2023-08-vi:p13:c03"
+        ],
+        "repeated": [
+          "wb-vn-taking-stock-2023-08-vi:p40:c02"
+        ],
+        "dropped_budget": []
+      },
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "tổng vốn đầu tư toàn xã hội cần đạt bao nhiêu so với GDP 2021-2030",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 625.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p40:c00",
+            "page": 40,
+            "score": 0.598492
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p14:c02",
+            "page": 14,
+            "score": 0.59575
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p13:c00",
+            "page": 13,
+            "score": 0.593064
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p40:c00",
+          "wb-vn-taking-stock-2023-08-vi:p14:c02",
+          "wb-vn-taking-stock-2023-08-vi:p13:c00"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Để đạt mục tiêu phát triển giai đoạn 2021-2030, tổng vốn đầu tư của toàn xã hội cần đạt bình quân từ 32% đến 35% GDP, trong đó đầu tư công cần ở mức bình quân 7,3% GDP mỗi năm để hỗ trợ xây dựng hạ tầng. Đây là quan điểm của Chính phủ Việt Nam phù hợp với kinh nghiệm quốc tế về các quốc gia tăng trưởng cao có đầu tư công cao từ 7% GDP trở lên (S6).",
+        "citations": [
+          "S6"
+        ],
+        "bad": [
+          "S6"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Để đạt mục tiêu phát triển giai đoạn 2021-2030, tổng vốn đầu tư của toàn xã hội cần đạt bình quân từ 32% đến 35% GDP, trong đó đầu tư công cần ở mức bình quân 7,3% GDP mỗi năm để hỗ trợ xây dựng hạ tầng. Đây là quan điểm của Chính phủ Việt Nam phù hợp với kinh nghiệm quốc tế về các quốc gia tăng trưởng cao có đầu tư công cao từ 7% GDP trở lên [S6].",
+        "raw_citations": [
+          "S6"
+        ]
+      }
+    ],
+    "n_searches": 3,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p40:c02",
+      "wb-vn-taking-stock-2023-08-vi:p40:c03",
+      "wb-vn-taking-stock-2023-08-vi:p36:c00",
+      "wb-vn-taking-stock-2023-08-vi:p40:c01",
+      "wb-vn-taking-stock-2023-08-vi:p13:c03",
+      "wb-vn-taking-stock-2023-08-vi:p40:c00",
+      "wb-vn-taking-stock-2023-08-vi:p14:c02",
+      "wb-vn-taking-stock-2023-08-vi:p13:c00"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p40:c02": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p40:c03": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p36:c00": "S3",
+      "wb-vn-taking-stock-2023-08-vi:p40:c01": "S4",
+      "wb-vn-taking-stock-2023-08-vi:p13:c03": "S5",
+      "wb-vn-taking-stock-2023-08-vi:p40:c00": "S6",
+      "wb-vn-taking-stock-2023-08-vi:p14:c02": "S7",
+      "wb-vn-taking-stock-2023-08-vi:p13:c00": "S8"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p40:c02 | trang 40 | chuong_2]\nHình 2.1. Đầu tư công theo đầu người và chỉ số hạ tầng Hình 2.2. Đầu tư công trên mỗi lao động ở các mức thu nhập khác nhau Chiến lược phát triển KTXH 2021–2030 (được Ban Chấp hành Trung ương Đảng thông qua năm 2021) và Quy hoạch phát triển tổng thể quốc gia 2021–2030, tầm nhìn đến 2050 (được Quốc hội phê duyệt vào tháng 01/2023).\n\n[wb-vn-taking-stock-2023-08-vi:p40:c03 | trang 40 | chuong_2]\nQuy hoạch phát triển tổng thể quốc gia 2021–2030, tầm nhìn đến 2050. Chiến lược phát triển kinh tế xã hội giai đoạn 2021-2030 và quy hoạch phát triển quốc gia tổng thể giai đoạn 2021-2030 và tầm nhìn đến năm 2050. Báo cáo tăng trưởng: Các chiến lược tăng trưởng bền vững và phát triển bao trùm (Ủy bản Tăng trưởng và Phát triển, 2008). Báo cáo đánh giá 3 nền kinh tế đã tăng trưởng với tốc độ bình quân 7% mỗi năm trong vòng 25 năm trở lên kể từ năm 1950; và với tốc độ tăng như thế, quy mô kinh tế của họ đã tăng gần gấp đôi sau mỗi thập kỷ. Bộ Tài chính và Tổng cục Thống kê. Không bao gồm đầu tư của doanh nghiệp Nhà nước.\n\n[wb-vn-taking-stock-2023-08-vi:p36:c00 | trang 36 | chuong_1]\nnhanh, khi giải ngân vốn đầu tư công tăng tới 43,3% so cùng kỳ năm trước trong nửa đầu năm 2023. Mặc dù vậy, tiến độ triển khai đầu tư công lâu nay vẫn chậm, ví dụ chỉ đạt 67,3% trong năm 2022. Các bước đi nhằm đẩy nhanh và cải thiện hiệu suất triển khai sẽ giúp giải quyết những hạn chế phát sinh về hạ tầng để phục vụ tăng trưởng, bao gồm nhu cầu đầu tư cấp thiết cho mạng lưới truyền tải điện cũng như nâng cao khả năng chống chịu với biến đổi khí hậu.\n\n[wb-vn-taking-stock-2023-08-vi:p40:c01 | trang 40 | chuong_2]\nMặc dù nhu cầu ngày càng lớn, nhưng tổng đầu tư công của Việt Nam đã giảm xuống trong thập kỷ qua. Từ năm 2011 đến năm 2022, tỷ lệ chi đầu tư công so với tổng chi ngân sách nhà nước (NSNN) và so với GDP đã giảm lần lượt từ 27% xuống 20% và từ 8% xuống 6%. Nhìn chung, nền kinh tế vẫn tương đối thiếu vốn đầu tư, đầu tư công tính trên mỗi đầu người và trên mỗi lao động vẫn thấp hơn\n\n[wb-vn-taking-stock-2023-08-vi:p13:c03 | trang 13 | tong_quan]\nCân đối ngân sách dự kiến đạt bội chi ở mức thấp là 0,7% GDP trong năm 2023. Chính sách tài khóa dự kiến vẫn tiếp tục hỗ trợ phần nào cho nền kinh tế trong năm 2023 trong điều kiện vẫn còn những thách thức trong triển khai đầu tư công. Bắt đầu từ năm 2024, Chính phủ sẽ từng bước quay lại củng cố tình hình tài khóa cho phù hợp với Chiến lược tài chính giai đoạn 2021-2030. Nợ công và nợ được khu vực công bảo lãnh vẫn ở mức bền vững, ổn định quanh khoảng 36% GDP trong năm 2023 trước khi giảm xuống khoảng 34,4% vào năm 2025. Tài khoản vãng lai dự kiến sẽ dần được cải thiện, nhờ xuất khẩu phục hồi nhẹ, số lượt du khách quốc tế tiếp tục phục hồi và nguồn kiều hối vẫn đứng vững. Bảng 0.1. Một số chỉ số kinh tế, Việt Nam 2020-2025 Tăng trưởng GDP (%) Chỉ số giá tiêu dùng (bình quân, %) Cân đối tài khoản vãng lai (% GDP) Cân đối tài khóa (*) (% GDP) Nợ công (% GDP)\n\n[wb-vn-taking-stock-2023-08-vi:p40:c00 | trang 40 | chuong_2]\nI. GIỚI THIỆU Đầu tư công đang ở mức thấp so với nhu cầu ngày lớn Việt Nam, trong quá trình tìm cách trở thành quốc gia thu nhập trung bình cao vào năm 2030 và quốc gia thu nhập cao vào năm 2045, mong muốn trở thành quốc gia công nghiệp và hiện đại, đem lại chất lượng sống tốt hơn cho người dân. Để hoàn thành mục tiêu phát triển tham vọng trên, Chính phủ Việt Nam dự kiến cần duy trì tăng trưởng tổng sản phẩm quốc nội (GDP) hàng năm ở mức 7% trong suốt giai đoạn 2021-2030 và từ 6,5 đến 7,5% trong giai đoạn từ 2031-2050.Quốc gia cũng phải đảm bảo tổng đầu tư toàn xã hội của tất cả các thành phần kinh tế đạt bình quân từ 32 đến 35% GDP trong giai đoạn từ 2021 đến 2030, bao gồm đầu tư công ở mức bình quân 7,3% GDP mỗi năm để hỗ trợ xây dựng hạ tầng trong giai đoạn trên. Quan điểm này cũng phù hợp với kinh nghiệm quốc tế cho thấy các quốc gia tăng trưởng cao có đặc trưng là đầu tư công cao, ở mức từ 7% GDP trở lên.\n\n[wb-vn-taking-stock-2023-08-vi:p14:c02 | trang 14 | tong_quan]\nNền kinh tế gặp khó khăn do tổng cầu yếu đi và tăng trưởng giảm tốc xuống dưới mức tiềm năng đòi hỏi phải có những hỗ trợ chính sách chủ động, được khuyến nghị như sau: • Do dư địa tài khóa còn dồi dào, chính sách tài khóa cần đóng vai trò chủ đạo, đảm bảo ngân sách đầu tư năm 2023 được triển khai tốt hơn rõ rệt. Ngân sách đầu tư công theo kế hoạch, nếu được triển khai đầy đủ sẽ nâng đầu tư công lên 7,1% GDP trong năm 2023, so với mức 5,5% GDP dự toán trong năm 2022, với xung lực tài khóa hỗ trợ cho tổng cầu ở mức 0,4% GDP. Chính phủ đã lên kế hoạch nâng đầu tư công thêm 38% (so cùng kỳ) cho năm 2023 – tương đương 1,6% GDP (thông qua Chương trình Phục hồi và Phát triển Kinh tế 2022-2023). Công tác triển khai đang được đẩy nhanh, khi giải ngân vốn đầu tư\n\n[wb-vn-taking-stock-2023-08-vi:p13:c00 | trang 13 | tong_quan]\nĐầu tư công được đẩy nhanh đã hỗ trợ cho nền kinh tế đang giảm đà, nhưng những thách thức trong triển khai vẫn còn tồn tại. Cân đối ngân sách đến giữa năm 2023 cho thấy bội thu ước đạt (1,5% GDP), thấp hơn so với cùng kỳ năm trước (5,2% GDP) do thu ngân sách giảm 7% trong nửa đầu năm 2023 so cùng kỳ năm trước khi các hoạt động kinh tế chững lại. Trong khi đó, tổng chi ngân sách tăng 12,8% (so cùng kỳ) trong nửa đầu năm 2023, do giải ngân đầu tư công tăng 43% (so cùng kỳ), nhờ triển khai hợp phần đầu tư (trị giá 1,6% GDP) trong kế hoạch phục hồi và phát triển kinh tế xã hội 2022- 2023. Tuy nhiên, số liệu giải ngân đầu tư công lũy kế theo ước tính vẫn thấp - chỉ bằng 30,5% dự toán ngân sách năm ở thời điểm cuối tháng 6/2023.",
+    "context_chars": 5314,
+    "elapsed_s": 11.48,
+    "embed_tokens": 93,
+    "llm_input_tokens": 7626,
+    "llm_output_tokens": 338,
+    "cache_hits": 0,
+    "cost_usd": 0.003593
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Theo khảo sát tháng 4/2023 của Ban Nghiên cứu Phát triển Kinh tế Tư nhân, tỷ lệ doanh nghiệp phải cắt giảm lao động là bao nhiêu?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Theo khảo sát tháng 4/2023 của Ban Nghiên cứu Phát triển Kinh tế Tư nhân, 71,2% doanh nghiệp được khảo sát cho biết họ phải cắt giảm ít nhất 5% lao động trong bốn tháng đầu năm 2023 [wb-vn-taking-stock-2023-08-vi:p25:c00][wb-vn-taking-stock-2023-08-vi:p12:c00].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p25:c00",
+      "wb-vn-taking-stock-2023-08-vi:p12:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "khảo sát tháng 4/2023 tỷ lệ doanh nghiệp phải cắt giảm lao động",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 579.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p25:c00",
+            "page": 25,
+            "score": 0.731061
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p12:c00",
+            "page": 12,
+            "score": 0.673578
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p24:c01",
+            "page": 24,
+            "score": 0.643944
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p25:c00",
+          "wb-vn-taking-stock-2023-08-vi:p12:c00",
+          "wb-vn-taking-stock-2023-08-vi:p24:c01"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Theo khảo sát tháng 4/2023 của Ban Nghiên cứu Phát triển Kinh tế Tư nhân, 71,2% doanh nghiệp được khảo sát cho biết họ phải cắt giảm ít nhất 5% lao động trong bốn tháng đầu năm 2023.",
+        "citations": [
+          "S1",
+          "S2"
+        ],
+        "bad": [
+          "S1",
+          "S2"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Theo khảo sát tháng 4/2023 của Ban Nghiên cứu Phát triển Kinh tế Tư nhân, 71,2% doanh nghiệp được khảo sát cho biết họ phải cắt giảm ít nhất 5% lao động trong bốn tháng đầu năm 2023 [S1][S2].",
+        "raw_citations": [
+          "S1",
+          "S2"
+        ]
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p25:c00",
+      "wb-vn-taking-stock-2023-08-vi:p12:c00",
+      "wb-vn-taking-stock-2023-08-vi:p24:c01"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p25:c00": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p12:c00": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p24:c01": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p25:c00 | trang 25 | chuong_1]\nHình 1.8. Doanh nghiệp gia nhập và ngừng hoạt động Tỷ lệ % (so cùng kỳ, không điều chỉnh theo mùa vụ) Hình 1.9. Các doanh nghiệp mới thành lập: sử dụng vốn và việc làm Tỷ lệ % (so cùng kỳ, không điều chỉnh theo mùa vụ) Nhu cầu bên ngoài suy giảm đặc biệt gây ảnh hưởng đến các doanh nghiệp và người lao động trong các lĩnh vực chế tạo chế biến ở các địa bàn xuất khẩu trọng tâm, như một số khu vực lân cận Hà Nội và thành phố Hồ Chí Minh. Theo khảo sát vào tháng 4/2023 của Ban Nghiên cứu Phát triển Khu vực Tư nhân, 71,2% doanh nghiệp được khảo sát cho biết họ phải cắt giảm 5% lao động, còn 60,1% cho biết doanh thu bị giảm ít nhất 20% trong 4 tháng đầu năm 2023. Trong số các doanh nghiệp tham gia khảo sát, 59,2% cho biết bị giảm đơn hàng. Trong thời gian tới, trên 80% doanh nghiệp dự báo tình hình kinh tế và kinh doanh sẽ kém đi trong các tháng còn lại của năm 2023. Tương tự như kết quả khảo sát trên, số liệu về lao động của 63 tỉnh thành do Bộ Lao động, Thương binh và Xã hội công bố cho thấy số lượng đơn đề nghị hưởng trợ cấp thất nghiệp tăng khoảng 59% từ quý 1 đến quý 2 năm 2023.\n\n[wb-vn-taking-stock-2023-08-vi:p12:c00 | trang 12 | tong_quan]\nkhu vực nông nghiệp vẫn ổn định ở mức thấp là 0,3 điểm phần trăm. Các doanh nghiệp và thị trường lao động đều chịu ảnh hưởng tiêu cực khi kinh tế trầm xuống. Qua một khảo sát 10.000 doanh nghiệp vào tháng 4/2023 của Ban Nghiên cứu Phát triển Kinh tế Tư nhân, 60,1% các doanh nghiệp cho biết doanh thu bị giảm ít nhất 20% trong bốn tháng đầu năm 2023, 59,2% cho biết đơn hàng bị giảm, và 71,2% cho biết phải cắt giảm ít nhất 5% lao động trong bốn tháng đầu năm. Tính trên toàn quốc, tỷ lệ tăng trưởng việc làm giảm từ 2,2% so cùng kỳ vào quý đầu năm 2023 so với chỉ 1,4% so cùng kỳ vào quý hai năm 2023, thấp hơn nhiều so với mức bình quân khoảng 4% trước COVID. Cú sốc cầu bên ngoài đặc biệt gây ảnh hưởng đến các doanh nghiệp và người lao động trong các lĩnh vực chế tạo chế biến định hướng xuất khẩu, trong đó một số địa bàn xuất khẩu trọng tâm như khu vực Đông Nam Bộ (bao gồm thành phố Hồ Chí Minh và các tỉnh lân cận) phải chứng kiến số người được phê duyệt nhận trợ cấp thất nghiệp tăng vọt gần 62% trong quý hai năm 2023 so với quý đầu cùng năm.\n\n[wb-vn-taking-stock-2023-08-vi:p24:c01 | trang 24 | chuong_1]\nTình hình thị trường lao động cũng giảm sôi động trong nửa đầu năm 2023, phản ánh các hoạt động kinh tế đang chững lại. Mặc dù tỷ lệ thất nghiệp và thiếu việc làm không thay đổi trong nửa đầu năm 2023 so với cùng kỳ năm trước, nhưng tăng trưởng việc làm giảm từ 2,2% so cùng kỳ trong quý đầu năm 2023 xuống còn 1,4% so cùng kỳ trong quý 2 (Hình 1.10), thấp hơn nhiều so với mức trung bình 4% trong giai đoạn trước đại dịch, phản ánh hoạt động kinh tế đang hạ nhiệt. Sau khi có cải thiện trong năm 2022, tỷ lệ tham gia lực lượng lao động đi ngang ở mức 68,9 trong nửa đầu năm 2023, vẫn thấp hơn so với mức bình quân của năm 2019 (71,1%). Do tình trạng thị trường lao động chưa khởi sắc, thu nhập bình quân vẫn đi ngang trong nửa đầu năm 2023 (Hình 1.11).",
+    "context_chars": 2987,
+    "elapsed_s": 5.69,
+    "embed_tokens": 36,
+    "llm_input_tokens": 3472,
+    "llm_output_tokens": 213,
+    "cache_hits": 0,
+    "cost_usd": 0.00173
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Chương trình tín dụng nhà ở xã hội được Chính phủ phê duyệt tháng 3/2023 có quy mô bao nhiêu và vốn do ai cung cấp?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Chương trình tín dụng nhà ở xã hội được Chính phủ phê duyệt tháng 3/2023 có quy mô 5,1 tỷ USD. Vốn tín dụng này do bốn ngân hàng thương mại quốc doanh cung cấp với lãi suất ưu đãi cho các nhà đầu tư và người mua nhà ở xã hội [wb-vn-taking-stock-2023-08-vi:p29:c02].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c02"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "Chương trình tín dụng nhà ở xã hội tháng 3/2023 quy mô vốn cung cấp",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 769.3,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p29:c02",
+            "page": 29,
+            "score": 0.568991
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p12:c05",
+            "page": 12,
+            "score": 0.540781
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p29:c01",
+            "page": 29,
+            "score": 0.500257
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p29:c02",
+          "wb-vn-taking-stock-2023-08-vi:p12:c05",
+          "wb-vn-taking-stock-2023-08-vi:p29:c01"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Chương trình tín dụng nhà ở xã hội được Chính phủ phê duyệt tháng 3/2023 có quy mô 5,1 tỷ USD. Vốn tín dụng này do bốn ngân hàng thương mại quốc doanh cung cấp với lãi suất ưu đãi cho các nhà đầu tư và người mua nhà ở xã hội.",
+        "citations": [
+          "S1"
+        ],
+        "bad": [
+          "S1"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Chương trình tín dụng nhà ở xã hội được Chính phủ phê duyệt tháng 3/2023 có quy mô 5,1 tỷ USD. Vốn tín dụng này do bốn ngân hàng thương mại quốc doanh cung cấp với lãi suất ưu đãi cho các nhà đầu tư và người mua nhà ở xã hội [S1].",
+        "raw_citations": [
+          "S1"
+        ]
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c02",
+      "wb-vn-taking-stock-2023-08-vi:p12:c05",
+      "wb-vn-taking-stock-2023-08-vi:p29:c01"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p29:c02": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p12:c05": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p29:c01": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p29:c02 | trang 29 | chuong_1]\nGiá nhà ở đã và đang tăng kể từ tháng 09/2022, đóng góp vào lạm phát CPI ở mức từ 20 đến trên 50% trong 10 tháng qua. Chương trình hỗ trợ lãi suất là một phần của gói phục hồi kinh tế - xã hội được Quốc hội phê duyệt đầu năm 2022. Chương trình này, với ngân sách phân bổ ở mức 1,7 tỷ US$, cung cấp hỗ trợ lãi suất ở mức 2% cho các doanh nghiệp đối tượng để phục hồi sau đại dịch. Đến tháng 03/2023, Chính phủ phê duyệt chương trình tín dụng 5,1 tỷ US$ nhằm thúc đẩy phát triển nhà ở xã hội tại Việt Nam. Vốn tín dụng đó do bốn ngân hàng thương mại quốc doanh cung cấp với lãi suất ưu đãi cho các nhà đầu tư và người mua nhà ở xã hội.\n\n[wb-vn-taking-stock-2023-08-vi:p12:c05 | trang 12 | tong_quan]\nBộ Lao động, Thương binh và Xã hội, tháng 06/2023. Thông tư số 02/2023/TT-NHNN cho phép các ngân hàng tái cơ cấu các khoản vay và giãn trích lập dự phòng cho nhiều năm tài chính nếu bên vay đang gặp khó khăn về trả nợ nhưng được đánh giá là có khả năng hoàn trả gốc và/hoặc lãi theo các điều khoản trả nợ được tái cơ cấu.\n\n[wb-vn-taking-stock-2023-08-vi:p29:c01 | trang 29 | chuong_1]\nTrong bối cảnh lạm phát giảm và tăng trưởng yếu đi, NHNN nới lỏng chính sách tiền tệ từ giữa tháng 3/2023. Đến cuối quý 2 năm 2023, lãi suất chiết khấu và lãi suất tái cấp vốn của NHNN được điều chỉnh lần lượt ở mức 3 và 4,5%, giảm 150-200 điểm cơ bản thông qua bốn đợt cắt giảm lãi suất chính sách từ tháng 3 đến tháng 6/2023 (Hình 1.20). Trần lãi suất tiền gửi kỳ hạn dưới 6 tháng và lãi suất cho vay các lĩnh vực ưu tiên cũng được điều chỉnh giảm với quy mô tương tự nhằm khuyến khích các ngân hàng thương mại cung cấp vốn vay mới, rẻ hơn, cho khách hàng cá nhân và doanh nghiệp. Bên cạnh đó là nỗ lực đẩy nhanh triển khai chương trình hỗ trợ lãi suất, cũng như việc ra mắt chương trình tín dụng nhà ở xã hội để hỗ trợ kinh tế.",
+    "context_chars": 1772,
+    "elapsed_s": 5.79,
+    "embed_tokens": 38,
+    "llm_input_tokens": 2785,
+    "llm_output_tokens": 223,
+    "cache_hits": 0,
+    "cost_usd": 0.001472
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Xuất khẩu sang hai thị trường chủ lực Hoa Kỳ và EU giảm bao nhiêu trong những tháng đầu năm 2023?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Xuất khẩu sang Hoa Kỳ giảm 21,3% và sang Liên minh Châu Âu giảm 9,6% so cùng kỳ trong năm tháng đầu năm 2023 [wb-vn-taking-stock-2023-08-vi:p27:c00].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p27:c00"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "xuất khẩu sang Hoa Kỳ EU giảm đầu năm 2023",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 453.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p27:c00",
+            "page": 27,
+            "score": 0.627928
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p28:c00",
+            "page": 28,
+            "score": 0.581609
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p21:c02",
+            "page": 21,
+            "score": 0.568726
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p27:c00",
+          "wb-vn-taking-stock-2023-08-vi:p28:c00",
+          "wb-vn-taking-stock-2023-08-vi:p21:c02"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Xuất khẩu sang Hoa Kỳ giảm 21,3% và sang Liên minh Châu Âu giảm 9,6% so cùng kỳ trong năm tháng đầu năm 2023.",
+        "citations": [
+          "S1"
+        ],
+        "bad": [
+          "S1"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Xuất khẩu sang Hoa Kỳ giảm 21,3% và sang Liên minh Châu Âu giảm 9,6% so cùng kỳ trong năm tháng đầu năm 2023 [S1].",
+        "raw_citations": [
+          "S1"
+        ]
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p27:c00",
+      "wb-vn-taking-stock-2023-08-vi:p28:c00",
+      "wb-vn-taking-stock-2023-08-vi:p21:c02"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p27:c00": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p28:c00": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p21:c02": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p27:c00 | trang 27 | chuong_1]\nHình 1.12. Cân đối tài khoản vãng lai Tỷ US$ (không điều chỉnh theo mùa vụ) Hình 1.13. Cán cân thanh toán Tỷ US$ (không điều chỉnh theo mùa vụ) Hình 1.14. Tỷ giá VND/USD Sức cầu bên ngoài yếu đi ảnh hưởng nặng nề đến xuất nhập khẩu hàng hóa của Việt Nam trong nửa đầu năm 2023. Xuất khẩu giảm (-12% so cùng kỳ) trong nửa đầu năm 2023 (Hình 1.15) do kim ngạch xuất khẩu giảm đồng loạt ở các mặt hàng chế tạo chế biến chủ lực, bao gồm hàng điện tử (-13,9%), máy móc (-8,6%), dệt may (-15,8%), và giày da (-16,9%), cũng như vào các thị trường chủ lực như Hoa Kỳ (-21,3%, so cùng kỳ trong năm tháng đầu năm) và Liên minh Châu Âu (-9,6% so cùng kỳ trong năm tháng đầu năm). Tổng kim ngạch nhập khẩu giảm mạnh hơn xuất khẩu, ở mức 17,9% so cùng kỳ trong nửa đầu năm 2023, trong đó kim ngạch nhập khẩu quý 2 giảm 20,2% so cùng kỳ năm trước. Vì đầu Hải quan Việt Nam, Haver Analytics, và tính toán của cán bộ Ngân hàng Thế giới.\n\n[wb-vn-taking-stock-2023-08-vi:p28:c00 | trang 28 | chuong_1]\nvào nhập khẩu phục vụ sản xuất các mặt hàng xuất khẩu chiếm 94% tổng kim ngạch nhập khẩu của Việt Nam, cho nên nhập khẩu giảm mạnh không chỉ phản ánh sản xuất phục vụ xuất khẩu suy giảm mà còn có thể là chỉ báo về sản xuất của các ngành phục vụ xuất khẩu sẽ suy yếu trong những tháng tới. Ngược lại, thương mại dịch vụ tiếp tục quay về các mức trước đại dịch, nhờ số lượt du khách quốc tế đến Việt Nam được phục hồi. Cán cân thương mại dịch vụ được cải thiện đáng kể, qua thâm hụt giảm xuống trong nửa đầu năm 2023 (-2,4 tỷ US$) so với năm trước (-8,1 tỷ US$) (Hình 1.16). Số lượt khách quốc tế đến với Việt Nam phục hồi mạnh trong nửa đầu năm (tăng thêm 5 triệu lượt khách trong nửa đầu năm 2023 so với cùng kỳ năm 2022) là lý do đem lại sự cải thiện trên.\n\n[wb-vn-taking-stock-2023-08-vi:p21:c02 | trang 21 | chuong_1]\nSức cầu bên ngoài giảm mạnh và tình trạng mất điện vừa qua gây ảnh hưởng đến kết quả của khu vực chế tạo chế biến định hướng xuất khẩu của Việt Nam. Theo sát sự suy giảm của xuất khẩu, sản xuất công nghiệp cũng giảm 0,4% (so cùng kỳ) trong nửa đầu năm 2023, sau đó tăng nhẹ 2,5% (so cùng kỳ) vào quý 2 (Hình 1.5). Sức cầu bên ngoài yếu đi gây ảnh hưởng đến tất cả các mặt hàng chế tạo chế biến xuất khẩu chủ lực trong nửa đầu năm 2023, bao gồm may mặc và giày da (-6,8%, so cùng kỳ), máy tính và hàng điện tử khác (-4,6%, so cùng kỳ) và đồ gỗ (-7,7%, so cùng kỳ). Bên cạnh đó, tình",
+    "context_chars": 2345,
+    "elapsed_s": 4.75,
+    "embed_tokens": 21,
+    "llm_input_tokens": 3083,
+    "llm_output_tokens": 161,
+    "cache_hits": 0,
+    "cost_usd": 0.001491
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Quy mô dân số bình quân của một tỉnh ở Việt Nam so với mức trung bình của OECD như thế nào?",
+    "answerable": true,
+    "error": null,
+    "context_evidence": true,
+    "status": "answered",
+    "answer": "Quy mô dân số bình quân của một tỉnh ở Việt Nam là khoảng 1,5 triệu dân, thấp hơn nhiều so với mức trung bình của các địa phương cấp tỉnh trong OECD là khoảng 3 triệu dân mỗi địa phương [wb-vn-taking-stock-2023-08-vi:p44:c01].",
+    "citations": [
+      "wb-vn-taking-stock-2023-08-vi:p44:c01"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "quy mô dân số bình quân tỉnh Việt Nam so với trung bình OECD",
+        "filter": {
+          "section": "chuong_2"
+        },
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 695.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p44:c01",
+            "page": 44,
+            "score": 0.633585
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p41:c00",
+            "page": 41,
+            "score": 0.488098
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p45:c02",
+            "page": 45,
+            "score": 0.477945
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p44:c01",
+          "wb-vn-taking-stock-2023-08-vi:p41:c00",
+          "wb-vn-taking-stock-2023-08-vi:p45:c02"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "invalid_citations",
+        "answer": "Quy mô dân số bình quân của một tỉnh ở Việt Nam là khoảng 1,5 triệu dân, thấp hơn nhiều so với mức trung bình của các địa phương cấp tỉnh trong OECD là khoảng 3 triệu dân mỗi địa phương.",
+        "citations": [
+          "S1"
+        ],
+        "bad": [
+          "S1"
+        ]
+      },
+      {
+        "event": "answer",
+        "abstain": false,
+        "raw_answer": "Quy mô dân số bình quân của một tỉnh ở Việt Nam là khoảng 1,5 triệu dân, thấp hơn nhiều so với mức trung bình của các địa phương cấp tỉnh trong OECD là khoảng 3 triệu dân mỗi địa phương [S1].",
+        "raw_citations": [
+          "S1"
+        ]
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p44:c01",
+      "wb-vn-taking-stock-2023-08-vi:p41:c00",
+      "wb-vn-taking-stock-2023-08-vi:p45:c02"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p44:c01": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p41:c00": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p45:c02": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p44:c01 | trang 44 | chuong_2]\nOECD, Đánh giá đa chiều về Việt Nam (2019): Quy mô bình quân của các địa phương cấp tỉnh ở Việt Nam tương đối nhỏ so với các quốc gia khác. Bình quân có 1,5 triệu dân mỗi tỉnh và 8.500 dân mỗi đô thị. Tỷ lệ này thấp hơn nhiều so với mức trung bình của OECD (ba triệu dân mỗi địa phương và 37.800 dân mỗi đô thị) cũng như các quốc gia đông dân khác trên thế giới, như Trung Quốc và Ấn Độ, và cả Ma-lay-xia và Mê-hi-cô.\n\n[wb-vn-taking-stock-2023-08-vi:p41:c00 | trang 41 | chuong_2]\nnhiều so với mức ở các quốc gia thu nhập trung bình cao (UMIC) và quốc gia thu nhập cao (HIC) (các Hình 2.1 và 2.2). Trong khi đó, kinh nghiệm quốc tế cho thấy đầu tư là động lực tăng trưởng quan trọng nhất của các quốc gia tăng trưởng cao khi họ ở trình độ phát triển của Việt Nam hiện nay (Hình 2.3).\n\n[wb-vn-taking-stock-2023-08-vi:p45:c02 | trang 45 | chuong_2]\nChất lượng hạ tầng vẫn đứng sau so với các quốc gia trong khu vực Với những thách thức nêu trên, chất lượng công trình hạ tầng của Việt Nam còn thấp hơn so với nhiều quốc gia châu Á khác. Điều này có thể ảnh hưởng đến khả năng thu hút nguồn vốn đầu tư trực tiếp nước ngoài (FDI) cũng như tăng trưởng tiềm năng trong dài hạn. Theo một khảo sát của Diễn đàn Kinh tế Thế giới, tuy chất lượng hạ tầng được nhận định là đã có cải thiện qua quá trình tăng đầu tư, nhưng Việt Nam vẫn đứng sau các quốc gia trong khu vực. Khảo sát này xếp hạng Việt Nam đứng thứ 77 trên tổng số 141 nền kinh tế trên thế giới, thấp hơn so với Trung Quốc, Ấn Độ, In-đô-nê-xia, Ma-lai-xia, và Thái Lan - là các quốc gia Việt Nam đang cạnh tranh để thu hút vốn đầu tư trực tiếp nước ngoài (FDI) (Bảng 2.1). Chỉ số Chất lượng Hạ tầng Toàn cầu năm 2021 xếp Việt Nam đứng thứ 51 trên 184 nền kinh tế, thấp hơn so với In-đô-nê-xia (thứ 28), Ma-lay-xia (thứ 29) và Thái Lan (thứ 33).",
+    "context_chars": 1755,
+    "elapsed_s": 5.6,
+    "embed_tokens": 26,
+    "llm_input_tokens": 2758,
+    "llm_output_tokens": 178,
+    "cache_hits": 0,
+    "cost_usd": 0.001389
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Tổng mức đầu tư của dự án đường Vành đai 4 vùng Thủ đô Hà Nội là bao nhiêu?",
+    "answerable": false,
+    "error": null,
+    "context_evidence": null,
+    "status": "abstain",
+    "answer": "Báo cáo không cung cấp thông tin cụ thể về tổng mức đầu tư của dự án đường Vành đai 4 vùng Thủ đô Hà Nội.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "đường Vành đai 4 vùng Thủ đô Hà Nội tổng mức đầu tư",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 709.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p51:c04",
+            "page": 51,
+            "score": 0.574195
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p48:c06",
+            "page": 48,
+            "score": 0.54741
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p41:c01",
+            "page": 41,
+            "score": 0.528754
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p51:c04",
+          "wb-vn-taking-stock-2023-08-vi:p48:c06",
+          "wb-vn-taking-stock-2023-08-vi:p41:c01"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "tổng mức đầu tư dự án đường Vành đai 4 vùng Thủ đô Hà Nội",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 677.1,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p48:c06",
+            "page": 48,
+            "score": 0.601073
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p51:c04",
+            "page": 51,
+            "score": 0.582583
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p51:c00",
+            "page": 51,
+            "score": 0.54394
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p51:c00"
+        ],
+        "repeated": [
+          "wb-vn-taking-stock-2023-08-vi:p48:c06",
+          "wb-vn-taking-stock-2023-08-vi:p51:c04"
+        ],
+        "dropped_budget": []
+      },
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "tổng mức đầu tư dự án đường Vành đai 4 vùng Thủ đô Hà Nội số tiền",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 430.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p48:c06",
+            "page": 48,
+            "score": 0.595981
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p51:c04",
+            "page": 51,
+            "score": 0.589969
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p51:c00",
+            "page": 51,
+            "score": 0.531171
+          }
+        ],
+        "added_to_context": [],
+        "repeated": [
+          "wb-vn-taking-stock-2023-08-vi:p48:c06",
+          "wb-vn-taking-stock-2023-08-vi:p51:c04",
+          "wb-vn-taking-stock-2023-08-vi:p51:c00"
+        ],
+        "dropped_budget": []
+      },
+      {
+        "event": "answer",
+        "abstain": true,
+        "raw_answer": "Báo cáo không cung cấp thông tin cụ thể về tổng mức đầu tư của dự án đường Vành đai 4 vùng Thủ đô Hà Nội."
+      }
+    ],
+    "n_searches": 3,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p51:c04",
+      "wb-vn-taking-stock-2023-08-vi:p48:c06",
+      "wb-vn-taking-stock-2023-08-vi:p41:c01",
+      "wb-vn-taking-stock-2023-08-vi:p51:c00"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p51:c04": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p48:c06": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p41:c01": "S3",
+      "wb-vn-taking-stock-2023-08-vi:p51:c00": "S4"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p51:c04 | trang 51 | chuong_2]\nTrong bối cảnh đó, các dự án vùng cần các địa phương đảm bảo kinh phí và thực hiện, trường hợp này được đưa lên Quốc hội, để ban hành một nghị quyết về trường hợp đặc biệt để điều chỉnh Kế hoạch đầu tư công trung hạn. Đường vành đai 3 (76 km) kết nối bốn địa phương (thành phố Hồ Chí Minh, tỉnh Đồng Nai, Bình Dương và Long An trong khu vực đông nam b ộ) và Đường vành đai 4 (113 km) kết nối ba địa phương (thành phố Hà Nội, tỉnh Hưng Yên và Bắc Ninh trong khu vực bắc bộ).\n\n[wb-vn-taking-stock-2023-08-vi:p48:c06 | trang 48 | chuong_2]\nĐiều này một phần có nguyên nhân liên quan đến hệ thống ngân sách kép tại Việt Nam, trong đó chủ dự án chỉ được phân bổ vốn đầu tư, còn kinh phí vận hành và bảo trì (O&M) lại được phân bổ cho đơn vị khác trong ngân sách chi thường xuyên. Tham khảo báo cáo Việt Nam năng động, tr. 66-68, Ngân hàng Thế giới (2021). Ngoài ra vẫn có bằng chứng từ trước đến nay về một số được hoàn thành với chi phí thấp hơn nhờ đấu thầu cạnh tranh, như được chỉ ra qua báo cáo của JICA đánh giá về xây dựng khoảng 100 km quốc lộ 10 từ Hải Phòng đi Ninh Bình cùng với 40 km đường tránh và một số cầu, chi phí thực tế của dự án chỉ bằng 76% dự toán. Báo cáo theo dõi đầu tư công (Bộ KH&ĐT, 2022).\n\n[wb-vn-taking-stock-2023-08-vi:p41:c01 | trang 41 | chuong_2]\nHình 2.3. Đầu tư là động lực tăng trưởng chính của các nền kinh tế tăng trưởng cao M Duy trì bền vững mức đầu tư công đóng vai trò quan trọng trong việc đảm bảo cơ sở hạ tầng xã hội và sản xuất, tạo thuận lợi cho khu vực tư nhân đẩy mạnh đầu tư. Việt Nam còn dư địa tài khóa rộng - nợ công và nợ được khu vực công bảo lãnh đang ở mức 35,7% GDP vào năm 2022 so với ngưỡng nợ 60% do Quốc hội đề ra - và có thể chi đầu tư công nhiều hơn để đẩy mạnh tăng trưởng bền vững (tham khảo ví dụ minh họa về nhu cầu hạ tầng giao thông tại Hộp 2.1).\n\n[wb-vn-taking-stock-2023-08-vi:p51:c00 | trang 51 | chuong_2]\nTrong điều kiện cấp tỉnh nắm một tỷ lệ lớn nguồn lực dành cho đầu tư công, NSTW phải dựa vào đóng góp tài chính từ các tỉnh thành có điều kiện để thực hiện các dự án hạ tầng có tính chất liên kết vùng. Công trình đường vành đai số 3 và số 4 được Quốc hội phê duyệt gần đây - tuy vẫn mang tính xử lý theo từng trường hợp - cho thấy tầm quan trọng của phối hợp ngân sách theo chiều dọc cho các dự án có tầm quan trọng của quốc gia, vùng. Tuy nhiên, cách làm mang tính sự vụ như vậy có thể dẫn đến khả năng thiếu nhất quán trong việc xác định tỷ lệ đóng góp tài chính giữa trung ương và địa phương trong từng trường hợp cụ thể. Bên cạnh đó, các cơ chế khác về quản lý đầu tư công giữa các cấp chính quyền - như huy động thu, trung ương cho địa phương vay lại nguồn tài chính trong nước, đấu thầu/quản lý hợp đồng phối hợp, và trách nhiệm vận hành & bảo trì (O&M) - hiện cũng chưa rõ ràng.",
+    "context_chars": 2685,
+    "elapsed_s": 6.77,
+    "embed_tokens": 95,
+    "llm_input_tokens": 4293,
+    "llm_output_tokens": 154,
+    "cache_hits": 0,
+    "cost_usd": 0.001966
+  },
+  {
+    "query_id": "u05",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Lãi suất cho vay bình quân của các ngân hàng thương mại vào tháng 6/2023 là bao nhiêu?",
+    "answerable": false,
+    "error": null,
+    "context_evidence": null,
+    "status": "abstain",
+    "answer": "Không có đủ bằng chứng trong các đoạn trích để xác định lãi suất cho vay bình quân của các ngân hàng thương mại vào tháng 6/2023.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "lãi suất cho vay bình quân tháng 6/2023",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 705.2,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p22:c02",
+            "page": 22,
+            "score": 0.614851
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p13:c02",
+            "page": 13,
+            "score": 0.589862
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p24:c01",
+            "page": 24,
+            "score": 0.574702
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p22:c02",
+          "wb-vn-taking-stock-2023-08-vi:p13:c02",
+          "wb-vn-taking-stock-2023-08-vi:p24:c01"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "lãi suất cho vay bình quân tháng 6/2023 ngân hàng thương mại",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 852.5,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p12:c05",
+            "page": 12,
+            "score": 0.600156
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p31:c00",
+            "page": 31,
+            "score": 0.594376
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p12:c02",
+            "page": 12,
+            "score": 0.594296
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p12:c05",
+          "wb-vn-taking-stock-2023-08-vi:p31:c00",
+          "wb-vn-taking-stock-2023-08-vi:p12:c02"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "lãi suất cho vay bình quân tháng 6/2023",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 4.6,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p22:c02",
+            "page": 22,
+            "score": 0.614851
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p13:c02",
+            "page": 13,
+            "score": 0.589862
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p24:c01",
+            "page": 24,
+            "score": 0.574702
+          }
+        ],
+        "added_to_context": [],
+        "repeated": [
+          "wb-vn-taking-stock-2023-08-vi:p22:c02",
+          "wb-vn-taking-stock-2023-08-vi:p13:c02",
+          "wb-vn-taking-stock-2023-08-vi:p24:c01"
+        ],
+        "dropped_budget": []
+      },
+      {
+        "event": "answer",
+        "abstain": true,
+        "raw_answer": "Không có đủ bằng chứng trong các đoạn trích để xác định lãi suất cho vay bình quân của các ngân hàng thương mại vào tháng 6/2023."
+      }
+    ],
+    "n_searches": 3,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p22:c02",
+      "wb-vn-taking-stock-2023-08-vi:p13:c02",
+      "wb-vn-taking-stock-2023-08-vi:p24:c01",
+      "wb-vn-taking-stock-2023-08-vi:p12:c05",
+      "wb-vn-taking-stock-2023-08-vi:p31:c00",
+      "wb-vn-taking-stock-2023-08-vi:p12:c02"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p22:c02": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p13:c02": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p24:c01": "S3",
+      "wb-vn-taking-stock-2023-08-vi:p12:c05": "S4",
+      "wb-vn-taking-stock-2023-08-vi:p31:c00": "S5",
+      "wb-vn-taking-stock-2023-08-vi:p12:c02": "S6"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p22:c02 | trang 22 | chuong_1]\nDữ liệu cho thấy thu nhập bình quân đang chững lại ở mức 6,3 triệu đồng (theo giá so sánh) trong nửa đầu năm 2023 sau khi được cải thiện mạnh trong năm 2022 (Hình 1.11). Tổng đầu tư chững lại đáng kể do đầu tư tư nhân suy giảm, trong khi tăng đầu tư công chỉ bù đắp được phần nào. Tăng trưởng tổng đầu tư giảm đáng kể xuống còn 4,7% (so cùng kỳ) trong nửa đầu năm 2023 so với 10,7% (so cùng kỳ) năm trước, chủ yếu do đầu tư tư nhân yếu đi trong điều kiện sức cầu trong nước và bên ngoài chững lại (Hình 1.7). Đóng góp của đầu tư tư nhân trong nước cho tổng đầu tư hạ xuống 1,4 điểm\n\n[wb-vn-taking-stock-2023-08-vi:p13:c02 | trang 13 | tong_quan]\nDo thanh khoản được nới lỏng và NHNN tái ban hành hướng dẫn về tái cơ cấu thời hạn trả nợ, những hạn chế về nguồn tài chính dành cho các lĩnh vực bất động sản/xây dựng dự kiến sẽ được nới ra, qua đó hỗ trợ cho đầu tư tư nhân từng bước phục hồi từ năm 2024 trở đi. Chỉ số CPI dự kiến tăng nhẹ từ mức bình quân 3,1% trong năm 2022 lên bình quân 3,5% trong năm 2023. Tác động giảm phát khi tăng trưởng chững lại và chính sách giảm thuế suất thuế GTGT từ 10% xuống 8% được triển khai trong nửa cuối năm 2023 được cho là quá đủ đề bù lại cho đợt tăng lương công chức 20,8%. Lạm phát CPI sẽ được bình ổn ở mức 3,0% trong năm 2024 và 2025 trên cơ sở kỳ vọng giá năng lượng và thương phẩm sẽ ổn định trong năm 2024.\n\n[wb-vn-taking-stock-2023-08-vi:p24:c01 | trang 24 | chuong_1]\nTình hình thị trường lao động cũng giảm sôi động trong nửa đầu năm 2023, phản ánh các hoạt động kinh tế đang chững lại. Mặc dù tỷ lệ thất nghiệp và thiếu việc làm không thay đổi trong nửa đầu năm 2023 so với cùng kỳ năm trước, nhưng tăng trưởng việc làm giảm từ 2,2% so cùng kỳ trong quý đầu năm 2023 xuống còn 1,4% so cùng kỳ trong quý 2 (Hình 1.10), thấp hơn nhiều so với mức trung bình 4% trong giai đoạn trước đại dịch, phản ánh hoạt động kinh tế đang hạ nhiệt. Sau khi có cải thiện trong năm 2022, tỷ lệ tham gia lực lượng lao động đi ngang ở mức 68,9 trong nửa đầu năm 2023, vẫn thấp hơn so với mức bình quân của năm 2019 (71,1%). Do tình trạng thị trường lao động chưa khởi sắc, thu nhập bình quân vẫn đi ngang trong nửa đầu năm 2023 (Hình 1.11).\n\n[wb-vn-taking-stock-2023-08-vi:p12:c05 | trang 12 | tong_quan]\nBộ Lao động, Thương binh và Xã hội, tháng 06/2023. Thông tư số 02/2023/TT-NHNN cho phép các ngân hàng tái cơ cấu các khoản vay và giãn trích lập dự phòng cho nhiều năm tài chính nếu bên vay đang gặp khó khăn về trả nợ nhưng được đánh giá là có khả năng hoàn trả gốc và/hoặc lãi theo các điều khoản trả nợ được tái cơ cấu.\n\n[wb-vn-taking-stock-2023-08-vi:p31:c00 | trang 31 | chuong_1]\ntài sản của các ngân hàng vẫn đang gây quan ngại. Mặc dù hệ số an toàn vốn bình quân của khu vực ngân hàng (11,4% vào năm 2022) vẫn cao hơn mức an toàn tối thiểu, nhưng mức đệm dự phòng vốn tại một số ngân hàng thương mại quốc doanh lớn và ngân hàng tư nhân nhỏ còn thấp, cho nên năng lực hấp thụ các cú sốc hoặc nợ xấu gia tăng còn hạn chế. Trong khi đó, nợ xấu tăng từ 1,9% trong tháng 12/2022 lên 2,9% trong tháng 03/2023 (Hình 1.22). Thị trường trái phiếu doanh nghiệp vẫn tiếp tục ngưng trệ khi khối lượng phát hành chỉ bằng khoảng một phần tư so với cùng kỳ năm 2022 và 98 doanh nghiệp đang mất khả năng trả nợ trái phiếu doanh nghiệp với tổng mức lên đến 128,5 ngàn tỷ VND (5,4 tỷ US$), tương đương khoảng 11,1% tổng dư nợ trên thị trường trái phiếu doanh nghiệp.\n\n[wb-vn-taking-stock-2023-08-vi:p12:c02 | trang 12 | tong_quan]\n(ở mức 10 tỷ US$) trong nửa đầu năm 2023. Chính vì vậy, cán cân thanh toán được cải thiện, Ngân hàng Nhà nước Việt Nam (NHNN) tích lũy được thêm 1,6 tỷ US$ dự trữ ngoại hối vào cuối quý 1 năm 2023, nâng tổng dự trữ lên 88,7 tỷ US$, tương đương 3,3 tháng nhập khẩu. Lạm phát toàn phần giảm nhanh do giá nhiên liệu giảm trên thị trường toàn cầu và trong nước, đồng thời tiêu dùng trong nước cũng chững lại, trong khi lạm phát cơ bản hạ nhiệt nhưng chậm hơn. Chỉ số CPI giảm từ 4,9% (so cùng kỳ) trong tháng 1/2023 xuống còn 2% (so cùng kỳ) trong tháng 6/2023. Đồng thời, lạm phát cơ bản (không tính giá lương thực thực phẩm, nhiên liệu và các mặt hàng và dịch vụ được Nhà nước quản lý giá) giảm từ 5,2% (so cùng kỳ) trong tháng 1 xuống còn 4,3% (so cùng kỳ) trong tháng 6, vì hiệu ứng vòng hai của cú sốc thương phẩm năm 2022 vẫn kéo dài, bao gồm thông qua giá vật liệu xây dựng và qua đó giá nhà ở tăng cao.",
+    "context_chars": 4215,
+    "elapsed_s": 5.82,
+    "embed_tokens": 67,
+    "llm_input_tokens": 5416,
+    "llm_output_tokens": 147,
+    "cache_hits": 1,
+    "cost_usd": 0.002403
+  },
+  {
+    "query_id": "u06",
+    "split": "test",
+    "config": "agent_dense_k3",
+    "model": "gpt-4.1-mini",
+    "method": "dense",
+    "top_k": 3,
+    "max_searches": 3,
+    "budget": 6000,
+    "short_ids": true,
+    "question": "Lạm phát CPI của Việt Nam trong tháng 7/2023 là bao nhiêu?",
+    "answerable": false,
+    "error": null,
+    "context_evidence": null,
+    "status": "abstain",
+    "answer": "Lạm phát CPI của Việt Nam trong tháng 7/2023 không được báo cáo cụ thể trong tài liệu, nhưng lạm phát CPI giảm từ 4,9% trong tháng 1/2023 xuống còn 2% trong tháng 6/2023 và dự kiến tăng nhẹ lên bình quân 3,5% trong năm 2023. Chính sách giảm thuế GTGT từ tháng 7/2023 có tác động tạm thời và không đáng kể đến CPI.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "lạm phát CPI tháng 7/2023",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 730.2,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p34:c01",
+            "page": 34,
+            "score": 0.656952
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p29:c00",
+            "page": 29,
+            "score": 0.608059
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p13:c02",
+            "page": 13,
+            "score": 0.594754
+          }
+        ],
+        "added_to_context": [
+          "wb-vn-taking-stock-2023-08-vi:p34:c01",
+          "wb-vn-taking-stock-2023-08-vi:p29:c00",
+          "wb-vn-taking-stock-2023-08-vi:p13:c02"
+        ],
+        "repeated": [],
+        "dropped_budget": []
+      },
+      {
+        "event": "search",
+        "tool": "search_report",
+        "method": "dense",
+        "query": "lạm phát CPI tháng 7/2023",
+        "filter": null,
+        "top_k": 3,
+        "error": null,
+        "elapsed_ms": 194.4,
+        "results": [
+          {
+            "rank": 1,
+            "id": "wb-vn-taking-stock-2023-08-vi:p34:c01",
+            "page": 34,
+            "score": 0.656952
+          },
+          {
+            "rank": 2,
+            "id": "wb-vn-taking-stock-2023-08-vi:p29:c00",
+            "page": 29,
+            "score": 0.608059
+          },
+          {
+            "rank": 3,
+            "id": "wb-vn-taking-stock-2023-08-vi:p13:c02",
+            "page": 13,
+            "score": 0.594754
+          }
+        ],
+        "added_to_context": [],
+        "repeated": [
+          "wb-vn-taking-stock-2023-08-vi:p34:c01",
+          "wb-vn-taking-stock-2023-08-vi:p29:c00",
+          "wb-vn-taking-stock-2023-08-vi:p13:c02"
+        ],
+        "dropped_budget": []
+      },
+      {
+        "event": "answer",
+        "abstain": true,
+        "raw_answer": "Lạm phát CPI của Việt Nam trong tháng 7/2023 không được báo cáo cụ thể trong tài liệu, nhưng lạm phát CPI giảm từ 4,9% trong tháng 1/2023 xuống còn 2% trong tháng 6/2023 và dự kiến tăng nhẹ lên bình quân 3,5% trong năm 2023. Chính sách giảm thuế GTGT từ tháng 7/2023 có tác động tạm thời và không đáng kể đến CPI."
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "wb-vn-taking-stock-2023-08-vi:p34:c01",
+      "wb-vn-taking-stock-2023-08-vi:p29:c00",
+      "wb-vn-taking-stock-2023-08-vi:p13:c02"
+    ],
+    "context_labels": {
+      "wb-vn-taking-stock-2023-08-vi:p34:c01": "S1",
+      "wb-vn-taking-stock-2023-08-vi:p29:c00": "S2",
+      "wb-vn-taking-stock-2023-08-vi:p13:c02": "S3"
+    },
+    "context": "[wb-vn-taking-stock-2023-08-vi:p34:c01 | trang 34 | chuong_1]\nLạm phát dự kiến sẽ tăng nhẹ từ mức bình quân 3,1% trong năm 2022 lên 3,5% trong năm 2023. Tác động giảm phát do tăng trưởng chững lại và do giảm thuế giá trị gia tăng (GTGT) được triển khai trong nửa cuối năm 2023 được đánh giá là có thể bù đắp cho tác động của tăng lương công chức (20,8%) lên chỉ số giá. Chính sách giảm 2% thuế GTGT từ tháng 7/2023 dự kiến chỉ có tác động tạm thời và không đáng kể trong năm nay. Trong thời gian tới, với dự báo giá cả thương phẩm sẽ giảm trong năm 2023, giá cả năng lượng và thương phẩm cơ bản ổn định trong năm 2024, phạm phát CPI được kỳ vọng giảm còn 3,0% trong năm 2024 và 2025, bằng mức trước đại dịch.\n\n[wb-vn-taking-stock-2023-08-vi:p29:c00 | trang 29 | chuong_1]\nHình 1.17. Số đăng ký vốn FDI theo lĩnh vực Tỷ US$ (YTD) Khi lạm phát hạ nhiệt, NHNN nới lỏng chính sách tiền tệ Sau khi đạt đỉnh vào tháng 1/2023, chỉ số giá tiêu dùng giảm mạnh nhờ giá nhiên liệu giảm trên các thị trường trong nước và toàn cầu, tiêu dùng trong nước cũng chững lại; trong khi lạm phát cơ bản cũng giảm nhưng với tốc độ chậm hơn. Lạm phát CPI giảm từ 4,9% (so cùng kỳ) trong tháng 1/2023 xuống còn 2% (so cùng kỳ) trong tháng 6/2023, thấp hơn nhiều so với mục tiêu chính sách ở mức 4,5% cho cả năm (Hình 1.18). Dịch vụ vận tải là yếu tố chính dẫn đến giảm CPI, do giá cước trong tháng 6/2023 giảm 12% (so cùng kỳ) nhờ giá cả nhiên liệu hạ nhiệt trên các thị trường trong nước và toàn cầu (Hình 1.19). Lạm phát cơ bản (không tính giá lương thực thực phẩm, nhiên liệu và các mặt hàng dịch vụ được Nhà nước quản lý giá) giảm ít hơn trong nửa đầu năm 2023 nhưng vẫn trên mức trước đại dịch. Điều này cho thấy tác động của đợt nâng giá nhiên liệu vẫn kéo dài, bao gồm thông qua giá vật liệu xây dựng và khiến giá nhà ở bị tăng lên.\n\n[wb-vn-taking-stock-2023-08-vi:p13:c02 | trang 13 | tong_quan]\nDo thanh khoản được nới lỏng và NHNN tái ban hành hướng dẫn về tái cơ cấu thời hạn trả nợ, những hạn chế về nguồn tài chính dành cho các lĩnh vực bất động sản/xây dựng dự kiến sẽ được nới ra, qua đó hỗ trợ cho đầu tư tư nhân từng bước phục hồi từ năm 2024 trở đi. Chỉ số CPI dự kiến tăng nhẹ từ mức bình quân 3,1% trong năm 2022 lên bình quân 3,5% trong năm 2023. Tác động giảm phát khi tăng trưởng chững lại và chính sách giảm thuế suất thuế GTGT từ 10% xuống 8% được triển khai trong nửa cuối năm 2023 được cho là quá đủ đề bù lại cho đợt tăng lương công chức 20,8%. Lạm phát CPI sẽ được bình ổn ở mức 3,0% trong năm 2024 và 2025 trên cơ sở kỳ vọng giá năng lượng và thương phẩm sẽ ổn định trong năm 2024.",
+    "context_chars": 2484,
+    "elapsed_s": 5.38,
+    "embed_tokens": 28,
+    "llm_input_tokens": 3044,
+    "llm_output_tokens": 178,
+    "cache_hits": 1,
+    "cost_usd": 0.001503
+  }
+]

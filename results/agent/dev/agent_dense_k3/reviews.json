@@ -1,0 +1,256 @@
+[
+  {
+    "query_id": "q01",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q02",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q03",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true,
+      true
+    ]
+  },
+  {
+    "query_id": "q04",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q05",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q06",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q07",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q08",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true,
+      true
+    ]
+  },
+  {
+    "query_id": "q09",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q10",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q11",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 0,
+    "note": "Từ chối dù câu có đáp án: dense không đưa p31:c00 (nợ xấu) vào top-3 qua 3 lượt tìm.",
+    "citation_support": []
+  },
+  {
+    "query_id": "q12",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 0,
+    "note": "Từ chối: context có p31 nhưng không có đoạn nêu mức đệm vốn thấp.",
+    "citation_support": []
+  },
+  {
+    "query_id": "q13",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q14",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q15",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q16",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q17",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true,
+      true
+    ]
+  },
+  {
+    "query_id": "q18",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q19",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q20",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 0,
+    "note": "Từ chối: dense không lấy được p50:c04 (tỷ lệ 90-10).",
+    "citation_support": []
+  },
+  {
+    "query_id": "q21",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q22",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q23",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q24",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q25",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "q26",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "answer_grade": 2,
+    "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "query_id": "u01",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "abstention_correct": true,
+    "note": "Từ chối đúng, không đưa số 2026.",
+    "citation_support": []
+  },
+  {
+    "query_id": "u02",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "abstention_correct": true,
+    "note": "Từ chối đúng.",
+    "citation_support": []
+  },
+  {
+    "query_id": "u03",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "abstention_correct": false,
+    "note": "Nội dung nói không có số liệu riêng cho gạo và chỉ trích tổng xuất khẩu -12% (đúng nguồn), nhưng không đặt abstain nên tính là không từ chối.",
+    "citation_support": [
+      true
+    ]
+  }
+]

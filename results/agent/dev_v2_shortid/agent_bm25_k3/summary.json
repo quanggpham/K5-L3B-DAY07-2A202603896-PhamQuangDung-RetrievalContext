@@ -1,0 +1,27 @@
+{
+  "config": "agent_bm25_k3",
+  "split": "dev",
+  "model": "gpt-4.1-mini",
+  "method": "bm25_bi",
+  "top_k": 3,
+  "max_searches": 3,
+  "budget": 6000,
+  "short_ids": true,
+  "cases": 29,
+  "errors": 0,
+  "tool_use": "29/29",
+  "searches_distribution": {
+    "1": 23,
+    "2": 1,
+    "3": 5
+  },
+  "mean_searches": 1.38,
+  "context_evidence": "24/26",
+  "answered_on_answerable": "25/26",
+  "abstained_on_unanswerable": "2/3",
+  "avg_context_chars": 2513,
+  "median_latency_s": 4.37,
+  "llm_input_tokens": 90783,
+  "llm_output_tokens": 6331,
+  "cost_usd": 0.04644
+}

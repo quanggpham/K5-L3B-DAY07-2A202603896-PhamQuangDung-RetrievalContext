@@ -1,0 +1,162 @@
+[
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t01",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c01"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t02",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p21:c03"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t03",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p30:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t04",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p40:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t05",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p25:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t06",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c02"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t07",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p27:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_dense_k3",
+    "query_id": "t08",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p44:c01"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t01",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c01"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t02",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p21:c03"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t03",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p30:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t04",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p40:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t05",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p25:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t06",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p29:c02"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t07",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p27:c00"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  },
+  {
+    "config": "agent_hybrid_rerank_k3",
+    "query_id": "t08",
+    "context_grade": 2,
+    "evidence_chunks": [
+      "wb-vn-taking-stock-2023-08-vi:p44:c01"
+    ],
+    "reason": "Context có chunk chứa nguyên văn evidence, đúng nguồn và trang, đủ điều kiện/đơn vị cho đáp án.",
+    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận"
+  }
+]

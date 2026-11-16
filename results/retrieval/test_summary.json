@@ -1,0 +1,42 @@
+[
+  {
+    "config": "dense_k3",
+    "method": "dense",
+    "context_k": 3,
+    "budget_chars": 4000,
+    "n": 8,
+    "hit1": "7/8",
+    "hit3": "8/8",
+    "hit5": "8/8",
+    "mrr10": 0.938,
+    "context_evidence": "8/8",
+    "avg_context_chars": 2522,
+    "median_ms": 483.1,
+    "errors": 0,
+    "embed_tokens": 417,
+    "llm_input_tokens": 0,
+    "llm_output_tokens": 0,
+    "cache_hits": 0,
+    "cost_usd": 8e-06
+  },
+  {
+    "config": "hybrid_rerank_k3",
+    "method": "hybrid_rerank",
+    "context_k": 3,
+    "budget_chars": 4000,
+    "n": 8,
+    "hit1": "8/8",
+    "hit3": "8/8",
+    "hit5": "8/8",
+    "mrr10": 1.0,
+    "context_evidence": "8/8",
+    "avg_context_chars": 2644,
+    "median_ms": 5106.4,
+    "errors": 0,
+    "embed_tokens": 417,
+    "llm_input_tokens": 32391,
+    "llm_output_tokens": 3191,
+    "cache_hits": 8,
+    "cost_usd": 0.01807
+  }
+]
