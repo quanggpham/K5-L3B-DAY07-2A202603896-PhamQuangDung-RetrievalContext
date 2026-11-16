@@ -1,0 +1,564 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Thương mại toàn cầu được dự báo tăng trưởng bao nhiêu trong năm 2023?",
+    "expected_answer": "Khoảng 1,7% (giảm từ 6% năm 2022)",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 11,
+        "evidence": "tăng trưởng thương mại toàn cầu dự kiến cũng giảm từ 6% trong năm 2022 xuống còn 1,7% trong năm 2023"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 20,
+        "evidence": "Thương mại toàn cầu dự kiến chỉ tăng trưởng 1,7% trong năm 2023"
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Lượng ngoại tệ dự trữ của Ngân hàng Nhà nước cuối quý 1/2023 đủ chi trả cho mấy tháng hàng nhập khẩu?",
+    "expected_answer": "88,7 tỷ US$, tương đương 3,3 tháng nhập khẩu",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 12,
+        "evidence": "nâng tổng dự trữ lên 88,7 tỷ US$, tương đương 3,3 tháng nhập khẩu"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 26,
+        "evidence": "88,7 tỷ US$ vào cuối quý 1 năm 2023, tương đương 3,3 tháng nhập khẩu"
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dieu_kien",
+    "question": "Đầu tư công năm 2023 có thể đạt bao nhiêu phần trăm GDP và với điều kiện gì?",
+    "expected_answer": "7,1% GDP, nếu ngân sách đầu tư công theo kế hoạch được triển khai đầy đủ",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 14,
+        "evidence": "Ngân sách đầu tư công theo kế hoạch, nếu được triển khai đầy đủ sẽ nâng đầu tư công lên 7,1% GDP trong năm 2023"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 35,
+        "evidence": "Ngân sách đầu tư công theo kế hoạch, nếu được triển khai đầy đủ sẽ nâng đầu tư công lên 7,1% GDP trong năm 2023"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "dien_dat_lai",
+    "question": "Giai đoạn 2011–2019, Việt Nam cần bao nhiêu đồng vốn đầu tư mới để có thêm một đồng sản lượng?",
+    "expected_answer": "Khoảng (hơn) sáu đồng",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 16,
+        "evidence": "trung bình phải bỏ ra hơn sáu đồng cho đầu tư mới tạo ra được thêm một đồng sản lượng"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 42,
+        "evidence": "nền kinh tế phải bỏ ra đến sáu đồng cho đầu tư mới tạo ra được thêm sản lượng bằng một đồng VND"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Để hợp lý hóa quan hệ tài khóa giữa các cấp chính quyền, cơ cấu ngân sách đầu tư công nên được dịch chuyển theo hướng nào?",
+    "expected_answer": "Dịch chuyển một phần từ cấp địa phương sang cấp trung ương",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 18,
+        "evidence": "khuyến nghị Chính phủ cân đối lại cơ cấu ngân sách đầu tư công theo hướng dịch chuyển một phần từ cấp địa phương sang cấp trung ương"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Tăng trưởng GDP theo giá so sánh của Việt Nam trong nửa đầu năm 2023 là bao nhiêu?",
+    "expected_answer": "3,7% so cùng kỳ",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 20,
+        "evidence": "trưởng GDP theo giá so sánh của Việt Nam giảm còn 3,7% (so cùng kỳ) trong nửa đầu năm 2023"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 11,
+        "evidence": "Tăng trưởng GDP thực (theo giá so sánh) của Việt Nam giảm còn 3,7% (so cùng kỳ năm trước) trong nửa đầu năm 2023"
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Các đợt mất điện tháng 5–6/2023 gây phí tổn kinh tế ước tính bao nhiêu?",
+    "expected_answer": "Khoảng 1,4 tỷ US$ (tương đương 0,3% GDP)",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 23,
+        "evidence": "phí tổn kinh tế của các đợt mất điện vào tháng 05-06 rơi vào khoảng 1,4 tỷ US$ (tương đương 0,3% GDP)"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dieu_kien",
+    "question": "Theo Thông tư 02/2023/TT-NHNN, ngân hàng được tái cơ cấu khoản vay cho bên vay trong trường hợp nào?",
+    "expected_answer": "Khi bên vay gặp khó khăn trả nợ nhưng được đánh giá có khả năng hoàn trả gốc và/hoặc lãi theo điều khoản đã tái cơ cấu",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 31,
+        "evidence": "nếu bên vay đang gặp khó khăn về trả nợ nhưng được đánh giá là có khả năng hoàn trả gốc và/hoặc lãi theo các điều khoản trả nợ được tái cơ cấu"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 12,
+        "evidence": "nếu bên vay đang gặp khó khăn về trả nợ nhưng được đánh giá là có khả năng hoàn trả gốc và/hoặc lãi theo các điều khoản trả nợ được tái cơ cấu"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Mức độ bi quan của người tiêu dùng về nền kinh tế thay đổi thế nào giữa đầu năm và giữa năm 2023?",
+    "expected_answer": "Tỷ lệ cho rằng kinh tế kém hơn năm trước tăng từ 27% (tháng 1/2023) lên 43% (tháng 6/2023)",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 22,
+        "evidence": "Một khảo sát người tiêu dùng vào tháng 6/2023 cho thấy 43% người trả lời cho rằng tình hình kinh tế kém hơn năm trước, so với tỷ lệ 27% vào tháng 01/2023"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Vốn FDI đăng ký trong nửa đầu năm 2023 đạt bao nhiêu?",
+    "expected_answer": "13,4 tỷ US$, giảm 4,5% so cùng kỳ",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 28,
+        "evidence": "vốn FDI đăng ký trong nửa đầu năm 2023 đạt 13,4 tỷ US$, giảm 4,5% so với cùng kỳ năm 2022"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "truc_tiep",
+    "question": "Tỷ lệ nợ xấu của các tổ chức tín dụng tăng từ mức nào lên mức nào trong quý đầu năm 2023?",
+    "expected_answer": "Từ 1,9% (tháng 12/2022) lên 2,9% (tháng 3/2023)",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 31,
+        "evidence": "nợ xấu tăng từ 1,9% trong tháng 12/2022 lên 2,9% trong tháng 03/2023"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 12,
+        "evidence": "nợ xấu tăng từ 1,9% trong tháng 12/2022 lên 2,9% trong tháng 3/2023"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dieu_kien",
+    "question": "Hệ số an toàn vốn của ngân hàng năm 2022 đã vượt mức tối thiểu, vậy hạn chế còn lại là gì?",
+    "expected_answer": "Mức đệm dự phòng vốn tại một số ngân hàng quốc doanh lớn và ngân hàng tư nhân nhỏ còn thấp",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 31,
+        "evidence": "hệ số an toàn vốn bình quân của khu vực ngân hàng (11,4% vào năm 2022) vẫn cao hơn mức an toàn tối thiểu, nhưng mức đệm dự phòng vốn tại một số ngân hàng thương mại quốc doanh lớn và ngân hàng tư nhân nhỏ còn thấp"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Có bao nhiêu doanh nghiệp mất khả năng trả nợ trái phiếu và tổng giá trị là bao nhiêu?",
+    "expected_answer": "98 doanh nghiệp, 128,5 ngàn tỷ VND (5,4 tỷ US$)",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 31,
+        "evidence": "98 doanh nghiệp đang mất khả năng trả nợ trái phiếu doanh nghiệp với tổng mức lên đến 128,5 ngàn tỷ VND (5,4 tỷ US$)"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Mức nợ công năm 2022 so với ngưỡng giới hạn do Quốc hội đặt ra như thế nào?",
+    "expected_answer": "35,7% GDP, thấp hơn nhiều so với ngưỡng 60%",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 33,
+        "evidence": "Nợ của Chính phủ và được Chính phủ bảo lãnh ước đạt 35,7% cho năm 2022, giảm liên tục từ năm 2016 là thời điểm nợ ở mức 47,5%, đồng thời thấp hơn nhiều so với ngưỡng 60% được Quốc hội đề ra"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 41,
+        "evidence": "nợ công và nợ được khu vực công bảo lãnh đang ở mức 35,7% GDP vào năm 2022 so với ngưỡng nợ 60% do Quốc hội đề ra"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dieu_kien",
+    "question": "Dự báo tăng trưởng năm 2023 dựa trên giả định nào về xuất khẩu?",
+    "expected_answer": "Xuất khẩu hàng hóa phục hồi dần trong nửa cuối 2023, nhất là quý 4, nhờ nhu cầu EU và Hoa Kỳ phục hồi",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 34,
+        "evidence": "Dự báo tăng trưởng dựa trên giả định rằng xuất khẩu hàng hóa sẽ phục hồi dần trong nửa cuối năm 2023, nhất là trong quý 4, do nhu cầu của Liên minh Châu Âu và Hoa Kỳ sẽ dần phục hồi"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Giai đoạn 2017–2022, chi đầu tư thực hiện được bình quân bao nhiêu phần trăm dự toán?",
+    "expected_answer": "Khoảng 77%",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 43,
+        "evidence": "chi đầu tư chỉ thực hiện trung bình được 77% dự toán"
+      },
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 16,
+        "evidence": "chỉ giải ngân được trung bình 77% dự toán phân bổ trong giai đoạn từ 2017 đến 2022"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Việt Nam có bao nhiêu cảng biển và tỷ lệ hàng hóa đi qua ba cảng do Bộ Giao thông Vận tải đầu tư là bao nhiêu?",
+    "expected_answer": "47 cảng biển; 95% hàng hóa đi qua ba cảng",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 45,
+        "evidence": "Việt Nam có 47 cảng biển với quy mô khác nhau ở các địa phương, nhưng 95% hàng hóa đều đi qua ba cảng được Bộ Giao thông Vận tải đầu tư và vận hành"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dieu_kien",
+    "question": "Dự án nhóm B có bắt buộc lập báo cáo nghiên cứu tiền khả thi không?",
+    "expected_answer": "Không; dự án nhóm B không cần lập báo cáo NCTKT",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 47,
+        "evidence": "Các dự án nhóm B (được coi là dự án lớn ở hầu hết các tỉnh thành) không cần phải lập báo cáo nghiên cứu tiền khả thi (NCTKT)"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "dieu_kien",
+    "question": "Các tỉnh có được điều chuyển vốn đầu tư cho nhau khi cùng hưởng lợi từ một dự án liên tỉnh không?",
+    "expected_answer": "Không; Luật NSNN (Điều 9) cấm điều chuyển vốn đầu tư giữa các tỉnh, kể cả khi các bên đều có lợi",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 49,
+        "evidence": "Luật NSNN (Điều 9) quy định cụ thể về cấm điều chuyển vốn đầu tư giữa các tỉnh, ngay cả trong trường hợp các bên đều thấy có lợi ích rõ ràng từ việc liên kết đầu tư dự án liên tỉnh"
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "truc_tiep",
+    "question": "Tỷ lệ đóng góp tài chính giữa trung ương và địa phương cho gói hỗ trợ vùng Đồng bằng sông Cửu Long là bao nhiêu?",
+    "expected_answer": "90-10 (trung ương 90, địa phương 10)",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 50,
+        "evidence": "tỷ lệ đóng góp tài chính 90-10 giữa trung ương và địa phương đã được quyết định theo tính chất đặc thù cho riêng gói hỗ trợ này"
+      }
+    ]
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Năm 2022, hệ thống thông tin quản lý đầu tư SBIMIS mới bao quát được bao nhiêu phần trăm dự án ở các khâu theo dõi, kiểm tra và đánh giá?",
+    "expected_answer": "Lần lượt 47,3%; 25,6% và 39,2%",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 48,
+        "evidence": "Tỷ lệ các dự án được theo dõi, kiểm tra và đánh giá thông qua hệ thống SBIMIS lần lượt chỉ chiếm 47,3%; 25,6% và 39,2% trong năm 2022"
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "dien_dat_lai",
+    "question": "Chi phí xử lý rủi ro ngập lụt và hạn hán ở hạ lưu Đà Nẵng so với chi phí xử lý ở thượng nguồn Quảng Nam chênh nhau thế nào?",
+    "expected_answer": "Thượng nguồn Quảng Nam khoảng 50 triệu USD, hạ lưu Đà Nẵng có thể trên 350 triệu USD",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 52,
+        "evidence": "chi phí ước tính để xử lý vấn đề này ở Quảng Nam (trên thượng nguồn) là 50 triệu USD, nhưng ở dưới hạ lưu tại Đà Nẵng, chi phí ước tính để quản lý rủi ro ngập lụt / hạn hán có thể lên đến trên 350 triệu USD"
+      }
+    ]
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "metadata",
+    "question": "Tổng nhu cầu tài chính phát sinh thêm để ứng phó biến đổi khí hậu và chuyển đổi xanh đến năm 2040 là bao nhiêu?",
+    "expected_answer": "Khoảng 701 tỷ US$ (giai đoạn 2022-2040), tương đương 6,8% GDP mỗi năm",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 46,
+        "evidence": "Tổng nhu cầu tài chính phát sinh thêm của Việt Nam để xử lý những thách thức liên quan đến BĐKH và chuyển đổi xanh có thể lên đến khoảng 701 tỷ US$ trong giai đoạn 2022-2040"
+      }
+    ],
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "day6_split": "dev",
+    "type": "metadata",
+    "question": "Giải pháp thực tiễn nào được khuyến nghị để đẩy nhanh tiến độ các dự án đầu tư công lớn?",
+    "expected_answer": "Bóc tách giải phóng mặt bằng / tái định cư ra khỏi dự án đầu tư",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 17,
+        "evidence": "Giải pháp mang tính thực tiễn là bóc tách giải phóng mặt bằng / tái định cư ra khỏi dự án đầu tư, nhất là với các dự án lớn"
+      }
+    ],
+    "filter": {
+      "section": "tong_quan"
+    }
+  },
+  {
+    "id": "q25",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "metadata",
+    "question": "Tiêu dùng tư nhân năm 2023 được dự báo tăng bao nhiêu và đóng góp bao nhiêu cho tăng trưởng GDP?",
+    "expected_answer": "Tăng 6,0% so cùng kỳ, đóng góp 3,4 điểm phần trăm",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 33,
+        "evidence": "Tiêu dùng tư nhân vẫn được kỳ vọng duy trì, với tốc độ tăng 6,0% (so cùng kỳ) - tuy nhiên có thấp hơn mức tăng trưởng trước đại dịch là 7% (so cùng kỳ) năm 2019 - đóng góp 3,4 điểm phần trăm cho tăng trưởng GDP"
+      }
+    ],
+    "filter": {
+      "section": "chuong_1"
+    }
+  },
+  {
+    "id": "q26",
+    "split": "dev",
+    "day6_split": "test",
+    "type": "metadata",
+    "question": "Vì sao việc lập kế hoạch và thẩm định dự án được đặt lên hàng đầu trong các khuyến nghị về quản lý đầu tư công?",
+    "expected_answer": "Vì dự án có chất lượng đầu vào thấp khi triển khai sẽ dẫn đến điều chỉnh, đội vốn và chậm tiến độ",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 52,
+        "evidence": "Trước hết, cần cải thiện việc lập kế hoạch và thẩm định dự án, vì 'dự án có chất lượng đầu vào' thấp’ khi được đưa vào triển khai sẽ dẫn đến điều chỉnh, đội vốn và chậm tiến độ"
+      }
+    ],
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Đến cuối quý 2 năm 2023, lãi suất tái cấp vốn của Ngân hàng Nhà nước được điều chỉnh về mức bao nhiêu?",
+    "expected_answer": "4,5% (lãi suất chiết khấu 3%), sau bốn đợt cắt giảm từ tháng 3 đến tháng 6/2023, giảm 150-200 điểm cơ bản",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 29,
+        "evidence": "lãi suất chiết khấu và lãi suất tái cấp vốn của NHNN được điều chỉnh lần lượt ở mức 3 và 4,5%"
+      }
+    ]
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Số lượng du khách nước ngoài đến Việt Nam trong sáu tháng đầu năm 2023 là bao nhiêu?",
+    "expected_answer": "5,6 triệu lượt, tăng từ 0,6 triệu trong sáu tháng đầu năm 2022",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 21,
+        "evidence": "Số lượng du khách nước ngoài tăng từ 0,6 triệu trong sáu tháng đầu năm 2022 lên 5,6 triệu trong sáu tháng đầu năm 2023"
+      }
+    ]
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Tăng trưởng tín dụng tháng 6/2023 so với chỉ tiêu cả năm của Ngân hàng Nhà nước như thế nào?",
+    "expected_answer": "7,8% so cùng kỳ, thấp hơn nhiều so với chỉ tiêu 14,0% cho cả năm",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 30,
+        "evidence": "Tăng trưởng tín dụng vào tháng 6/2023 giảm xuống còn 7,8% so cùng kỳ (Hình 1.21), thấp hơn nhiều so với chỉ tiêu tăng trưởng tín dụng của NHNN ở mức 14,0% cho cả năm"
+      }
+    ]
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Để đạt mục tiêu phát triển giai đoạn 2021-2030, tổng vốn đầu tư của toàn xã hội cần ở mức bao nhiêu so với GDP?",
+    "expected_answer": "Bình quân 32-35% GDP mỗi năm trong giai đoạn 2021-2030 (trong đó đầu tư công bình quân 7,3% GDP)",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 40,
+        "evidence": "tổng đầu tư toàn xã hội của tất cả các thành phần kinh tế đạt bình quân từ 32 đến 35% GDP trong giai đoạn từ 2021 đến 2030"
+      }
+    ]
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Theo khảo sát tháng 4/2023 của Ban Nghiên cứu Phát triển Kinh tế Tư nhân, tỷ lệ doanh nghiệp phải cắt giảm lao động là bao nhiêu?",
+    "expected_answer": "71,2% doanh nghiệp được khảo sát phải cắt giảm 5% lao động",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 25,
+        "evidence": "71,2% doanh nghiệp được khảo sát cho biết họ phải cắt giảm 5% lao động"
+      }
+    ]
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Chương trình tín dụng nhà ở xã hội được Chính phủ phê duyệt tháng 3/2023 có quy mô bao nhiêu và vốn do ai cung cấp?",
+    "expected_answer": "5,1 tỷ US$, do bốn ngân hàng thương mại quốc doanh cung cấp với lãi suất ưu đãi",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 29,
+        "evidence": "Chính phủ phê duyệt chương trình tín dụng 5,1 tỷ US$ nhằm thúc đẩy phát triển nhà ở xã hội tại Việt Nam. Vốn tín dụng đó do bốn ngân hàng thương mại quốc doanh cung cấp"
+      }
+    ]
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Xuất khẩu sang hai thị trường chủ lực Hoa Kỳ và EU giảm bao nhiêu trong những tháng đầu năm 2023?",
+    "expected_answer": "Hoa Kỳ giảm 21,3% và EU giảm 9,6% so cùng kỳ trong năm tháng đầu năm 2023",
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 27,
+        "evidence": "Hoa Kỳ (-21,3%, so cùng kỳ trong năm tháng đầu năm) và Liên minh Châu Âu (-9,6% so cùng kỳ trong năm tháng đầu năm)"
+      }
+    ]
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "type": "metadata",
+    "question": "Quy mô dân số bình quân của một tỉnh ở Việt Nam so với mức trung bình của OECD như thế nào?",
+    "expected_answer": "Bình quân 1,5 triệu dân mỗi tỉnh (8.500 dân mỗi đô thị), thấp hơn nhiều so với mức trung bình OECD là ba triệu dân mỗi địa phương (37.800 dân mỗi đô thị)",
+    "filter": {
+      "section": "chuong_2"
+    },
+    "gold": [
+      {
+        "source_id": "wb-vn-taking-stock-2023-08-vi",
+        "page": 44,
+        "evidence": "Bình quân có 1,5 triệu dân mỗi tỉnh và 8.500 dân mỗi đô thị"
+      }
+    ]
+  }
+]

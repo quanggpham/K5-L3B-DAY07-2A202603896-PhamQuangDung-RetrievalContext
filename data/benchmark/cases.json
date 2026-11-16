@@ -1,0 +1,303 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Thương mại toàn cầu được dự báo tăng trưởng bao nhiêu trong năm 2023?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Lượng ngoại tệ dự trữ của Ngân hàng Nhà nước cuối quý 1/2023 đủ chi trả cho mấy tháng hàng nhập khẩu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Đầu tư công năm 2023 có thể đạt bao nhiêu phần trăm GDP và với điều kiện gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Giai đoạn 2011–2019, Việt Nam cần bao nhiêu đồng vốn đầu tư mới để có thêm một đồng sản lượng?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Để hợp lý hóa quan hệ tài khóa giữa các cấp chính quyền, cơ cấu ngân sách đầu tư công nên được dịch chuyển theo hướng nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Tăng trưởng GDP theo giá so sánh của Việt Nam trong nửa đầu năm 2023 là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Các đợt mất điện tháng 5–6/2023 gây phí tổn kinh tế ước tính bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Theo Thông tư 02/2023/TT-NHNN, ngân hàng được tái cơ cấu khoản vay cho bên vay trong trường hợp nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Mức độ bi quan của người tiêu dùng về nền kinh tế thay đổi thế nào giữa đầu năm và giữa năm 2023?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Vốn FDI đăng ký trong nửa đầu năm 2023 đạt bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Tỷ lệ nợ xấu của các tổ chức tín dụng tăng từ mức nào lên mức nào trong quý đầu năm 2023?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Hệ số an toàn vốn của ngân hàng năm 2022 đã vượt mức tối thiểu, vậy hạn chế còn lại là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Có bao nhiêu doanh nghiệp mất khả năng trả nợ trái phiếu và tổng giá trị là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Mức nợ công năm 2022 so với ngưỡng giới hạn do Quốc hội đặt ra như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Dự báo tăng trưởng năm 2023 dựa trên giả định nào về xuất khẩu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "Giai đoạn 2017–2022, chi đầu tư thực hiện được bình quân bao nhiêu phần trăm dự toán?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Việt Nam có bao nhiêu cảng biển và tỷ lệ hàng hóa đi qua ba cảng do Bộ Giao thông Vận tải đầu tư là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "Dự án nhóm B có bắt buộc lập báo cáo nghiên cứu tiền khả thi không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "Các tỉnh có được điều chuyển vốn đầu tư cho nhau khi cùng hưởng lợi từ một dự án liên tỉnh không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "question": "Tỷ lệ đóng góp tài chính giữa trung ương và địa phương cho gói hỗ trợ vùng Đồng bằng sông Cửu Long là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "Năm 2022, hệ thống thông tin quản lý đầu tư SBIMIS mới bao quát được bao nhiêu phần trăm dự án ở các khâu theo dõi, kiểm tra và đánh giá?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "question": "Chi phí xử lý rủi ro ngập lụt và hạn hán ở hạ lưu Đà Nẵng so với chi phí xử lý ở thượng nguồn Quảng Nam chênh nhau thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "question": "Tổng nhu cầu tài chính phát sinh thêm để ứng phó biến đổi khí hậu và chuyển đổi xanh đến năm 2040 là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "question": "Giải pháp thực tiễn nào được khuyến nghị để đẩy nhanh tiến độ các dự án đầu tư công lớn?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "tong_quan"
+    }
+  },
+  {
+    "id": "q25",
+    "split": "dev",
+    "question": "Tiêu dùng tư nhân năm 2023 được dự báo tăng bao nhiêu và đóng góp bao nhiêu cho tăng trưởng GDP?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "chuong_1"
+    }
+  },
+  {
+    "id": "q26",
+    "split": "dev",
+    "question": "Vì sao việc lập kế hoạch và thẩm định dự án được đặt lên hàng đầu trong các khuyến nghị về quản lý đầu tư công?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "Đến cuối quý 2 năm 2023, lãi suất tái cấp vốn của Ngân hàng Nhà nước được điều chỉnh về mức bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Số lượng du khách nước ngoài đến Việt Nam trong sáu tháng đầu năm 2023 là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "Tăng trưởng tín dụng tháng 6/2023 so với chỉ tiêu cả năm của Ngân hàng Nhà nước như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "Để đạt mục tiêu phát triển giai đoạn 2021-2030, tổng vốn đầu tư của toàn xã hội cần ở mức bao nhiêu so với GDP?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "Theo khảo sát tháng 4/2023 của Ban Nghiên cứu Phát triển Kinh tế Tư nhân, tỷ lệ doanh nghiệp phải cắt giảm lao động là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "Chương trình tín dụng nhà ở xã hội được Chính phủ phê duyệt tháng 3/2023 có quy mô bao nhiêu và vốn do ai cung cấp?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "Xuất khẩu sang hai thị trường chủ lực Hoa Kỳ và EU giảm bao nhiêu trong những tháng đầu năm 2023?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "question": "Quy mô dân số bình quân của một tỉnh ở Việt Nam so với mức trung bình của OECD như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "Ngân hàng Thế giới dự báo tăng trưởng GDP của Việt Nam năm 2026 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Dự báo trong báo cáo chỉ đến năm 2025 (p13, p33-34, Bảng 0.1/1.1). Chuỗi '2026' không xuất hiện trong text gốc của cả 58 trang PDF."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "Báo cáo dự báo tỷ giá VND/USD vào cuối năm 2023 ở mức bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo chỉ mô tả cơ chế tỷ giá (biên độ +/-5%, p26), diễn biến lịch sử (Hình 1.14, p27) và rủi ro áp lực tỷ giá (p14, p35-36); không có con số dự báo tỷ giá. Kiểm bằng tìm 'tỷ giá' trên toàn bộ text PDF."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "question": "Kim ngạch xuất khẩu gạo của Việt Nam trong nửa đầu năm 2023 thay đổi như thế nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Phần xuất khẩu (p12, p20, p27) chỉ nêu điện tử, máy móc, dệt may, giày da, đồ gỗ; từ 'gạo' không xuất hiện trong text gốc của PDF."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "Tổng mức đầu tư của dự án đường Vành đai 4 vùng Thủ đô Hà Nội là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Vành đai 4 chỉ được nhắc ở p51: dài 113 km, nối Hà Nội, Hưng Yên, Bắc Ninh, được Quốc hội phê duyệt theo cơ chế đặc biệt; không có số vốn. Kiểm bằng tìm 'vành đai' và 'tổng mức đầu tư' trên text PDF."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "question": "Lãi suất cho vay bình quân của các ngân hàng thương mại vào tháng 6/2023 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "p29 chỉ nêu lãi suất chính sách (chiết khấu 3%, tái cấp vốn 4,5%) và việc giảm trần lãi suất cho vay lĩnh vực ưu tiên; Hình 1.20 (p30) chỉ có lợi suất TPCP 10 năm, VIBOR 2 tuần và lãi suất chiết khấu. Không có lãi suất cho vay bình quân."
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "question": "Lạm phát CPI của Việt Nam trong tháng 7/2023 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Số liệu lạm phát trong báo cáo dừng ở tháng 6/2023 (2% so cùng kỳ, p29) và dự báo bình quân năm (3,5%, p13); không có số liệu tháng 7/2023. Kiểm bằng tìm 'tháng 7' / 'T7-23' trên text PDF."
+  }
+]
