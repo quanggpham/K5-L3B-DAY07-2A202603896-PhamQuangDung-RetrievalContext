@@ -1,7 +1,7 @@
 [
   {
     "query_id": "t01",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true
     ],
@@ -10,7 +10,7 @@
   },
   {
     "query_id": "t02",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true
     ],
@@ -19,7 +19,7 @@
   },
   {
     "query_id": "t03",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true
     ],
@@ -28,7 +28,7 @@
   },
   {
     "query_id": "t04",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true
     ],
@@ -37,7 +37,7 @@
   },
   {
     "query_id": "t05",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true,
       true
@@ -47,7 +47,7 @@
   },
   {
     "query_id": "t06",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true
     ],
@@ -56,7 +56,7 @@
   },
   {
     "query_id": "t07",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true
     ],
@@ -65,7 +65,7 @@
   },
   {
     "query_id": "t08",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [
       true
     ],
@@ -74,21 +74,21 @@
   },
   {
     "query_id": "u04",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [],
     "note": "Từ chối, không nêu con số vốn.",
     "abstention_correct": true
   },
   {
     "query_id": "u05",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [],
     "note": "Từ chối, phân biệt lãi suất chính sách với lãi suất cho vay bình quân.",
     "abstention_correct": true
   },
   {
     "query_id": "u06",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "citation_support": [],
     "note": "Từ chối; số liệu liên quan nêu thêm (CPI tháng 1 và 6, dự báo 3,5%, giảm thuế GTGT) đều có trong context.",
     "abstention_correct": true

@@ -1,7 +1,7 @@
 [
   {
     "query_id": "q01",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -11,7 +11,7 @@
   },
   {
     "query_id": "q02",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -21,7 +21,7 @@
   },
   {
     "query_id": "q03",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -31,7 +31,7 @@
   },
   {
     "query_id": "q04",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -42,7 +42,7 @@
   },
   {
     "query_id": "q05",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -51,7 +51,7 @@
   },
   {
     "query_id": "q06",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng 3,7%; p21:c01 không hỗ trợ khẳng định cụ thể.",
     "citation_support": [
@@ -62,7 +62,7 @@
   },
   {
     "query_id": "q07",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -71,7 +71,7 @@
   },
   {
     "query_id": "q08",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -81,7 +81,7 @@
   },
   {
     "query_id": "q09",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -90,7 +90,7 @@
   },
   {
     "query_id": "q10",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -99,7 +99,7 @@
   },
   {
     "query_id": "q11",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -109,7 +109,7 @@
   },
   {
     "query_id": "q12",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -120,7 +120,7 @@
   },
   {
     "query_id": "q13",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 1,
     "note": "Đúng 98 DN, 128,5 ngàn tỷ VND; thêm mốc 'tính đến tháng 3/2023' không có trong nguồn.",
     "citation_support": [
@@ -129,7 +129,7 @@
   },
   {
     "query_id": "q14",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -139,7 +139,7 @@
   },
   {
     "query_id": "q15",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -148,7 +148,7 @@
   },
   {
     "query_id": "q16",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -157,7 +157,7 @@
   },
   {
     "query_id": "q17",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -166,7 +166,7 @@
   },
   {
     "query_id": "q18",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -175,7 +175,7 @@
   },
   {
     "query_id": "q19",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -184,7 +184,7 @@
   },
   {
     "query_id": "q20",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -193,7 +193,7 @@
   },
   {
     "query_id": "q21",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -202,7 +202,7 @@
   },
   {
     "query_id": "q22",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -211,7 +211,7 @@
   },
   {
     "query_id": "q23",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -221,7 +221,7 @@
   },
   {
     "query_id": "q24",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -230,7 +230,7 @@
   },
   {
     "query_id": "q25",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -239,7 +239,7 @@
   },
   {
     "query_id": "q26",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "answer_grade": 2,
     "note": "Đúng và đủ so với đáp án chuẩn; citation chứa evidence.",
     "citation_support": [
@@ -250,21 +250,21 @@
   },
   {
     "query_id": "u01",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "abstention_correct": true,
     "note": "Từ chối đúng.",
     "citation_support": []
   },
   {
     "query_id": "u02",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "abstention_correct": true,
     "note": "Từ chối đúng.",
     "citation_support": []
   },
   {
     "query_id": "u03",
-    "labeler": "Claude Code (AI) đề xuất sau khi đọc trace và chunk nguồn; tác giả cần xác nhận",
+    "labeler": "Phạm Quang Dũng",
     "abstention_correct": true,
     "note": "Từ chối đúng.",
     "citation_support": []

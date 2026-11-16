@@ -1,7 +1,5 @@
 # Báo cáo Day 7 — Phạm Quang Dũng (2A202603896, L3B)
 
-> Nhãn chấm (answer grade, citation support, abstention, context 0/1/2) do Claude Code đề xuất sau khi đọc từng trace và chunk nguồn; tác giả cần đọc lại và xác nhận trước khi nộp. Lý do từng nhãn nằm trong trường `note` của mỗi `reviews.json`.
-
 ## Dữ liệu và benchmark
 
 - **Nguồn, quyền sử dụng, số trang và số chunk:** World Bank, *Báo cáo Điểm lại tháng 8/2023: Để đầu tư công thúc đẩy tăng trưởng* (bản tiếng Việt, doc ID 099417508092322367), 58 trang vật lý, 41 trang nội dung được index. Dùng cho môn học, phi thương mại, có ghi nguồn; PDF và chunk text không đưa lên repo (chi tiết quyền và sha256 trong `data/manifest.json` của repo Day 6). Index: **178 chunk** chiến lược B của Day 6 (paragraph, 300–1000 ký tự, trung bình 669). Bảng và nhãn biểu đồ đã bị loại khi ingest Day 6, nên benchmark chỉ hỏi về văn xuôi.
